@@ -1,0 +1,13 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databricks local metadata
+.databricks/
+*.dbfs
+
+# Environment & secrets
+.env
+*.pem
