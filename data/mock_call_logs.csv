@@ -1,0 +1,501 @@
+Call ID,Timestamp,Customer ID,Agent ID,Call Duration,Call Reason,Customer Transcript
+cd314e79-bf3d-473d-b85e-d587f23460e2,2026-08-31 04:33:29,CUST_20062,AGT_1007,330,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+6552f6c3-6fad-432c-a2df-6fde38fc46f3,2026-09-15 12:05:58,CUST_20108,AGT_1001,106,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+1790f400-1567-422c-bf9a-4ac1e3723382,2026-08-29 03:11:43,CUST_20129,AGT_1019,99,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+72f5aa80-15ce-4390-9a95-c6c8b695622d,2026-09-13 07:01:43,CUST_20107,AGT_1007,964,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+c45c9764-a170-4140-844e-3ed1d1ab1b40,2026-08-18 03:41:50,CUST_20194,AGT_1005,910,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+e84a1865-d7ca-4c47-975a-c97073b34177,2026-08-25 09:16:21,CUST_20055,AGT_1024,734,Account Management,I recently moved and need to update my billing and service address.
+11691638-a7f9-45e2-ad18-a536362c672c,2026-09-05 06:46:23,CUST_20024,AGT_1011,749,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+6e840a5d-e140-46ea-a12a-e79c5a6cb002,2026-08-19 22:44:57,CUST_20186,AGT_1014,1143,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+16d0f685-6a3a-468f-86c9-693807d9ecc1,2026-08-21 15:56:04,CUST_20141,AGT_1009,785,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+3a7d2bcb-4aa7-4e76-8a83-61833fd251f3,2026-08-21 05:09:48,CUST_20011,AGT_1021,511,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+1db32de4-9d3d-4570-b6c0-77b2cf7df736,2026-08-29 03:20:48,CUST_20025,AGT_1012,614,Account Management,I need to change the primary email address and phone number associated with my profile.
+dda93d57-14d9-45cd-9110-614ae3d6d02b,2026-08-25 17:37:53,CUST_20094,AGT_1011,474,Cancellation Request,I am switching to another provider and need to initiate account closure.
+d808b265-28a2-46cd-9671-969cc708c99d,2026-09-16 09:48:53,CUST_20162,AGT_1005,1138,Account Management,I need to change the primary email address and phone number associated with my profile.
+eab4e7ae-17f3-4d20-843e-3e8823ad15d4,2026-09-09 06:41:52,CUST_20097,AGT_1008,1185,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+cda8722e-1c77-4647-a3cc-7deef391f50b,2026-08-20 13:17:53,CUST_20058,AGT_1001,691,Technical Support,The software update crashed mid-installation and now my device won't boot.
+ae262f99-3d9e-4dd6-8a17-efb211fa7e73,2026-08-21 01:14:28,CUST_20054,AGT_1018,689,Cancellation Request,I am switching to another provider and need to initiate account closure.
+6ee46828-cb13-4e50-9c8f-ba7ed6e0ae4b,2026-09-06 01:04:13,CUST_20164,AGT_1014,337,Technical Support,I cannot connect to the VPN network from my remote setup today.
+a6126862-fdb7-47b2-b08b-b1d396399179,2026-08-29 19:28:03,CUST_20190,AGT_1017,1148,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+c4948cf2-8ecb-492c-9ca0-93795ce67726,2026-09-15 03:59:27,CUST_20102,AGT_1011,494,Account Management,Can you help me reset my security questions and multi-factor authentication?
+0993c6dd-939c-4fd9-891d-c070d1ffc95e,2026-08-22 06:02:34,CUST_20193,AGT_1001,269,Technical Support,I cannot connect to the VPN network from my remote setup today.
+146bda9d-a61b-41b0-99e2-cefdc1797acc,2026-09-07 07:58:40,CUST_20152,AGT_1002,833,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+eb8d1ec2-d89d-4b81-9973-be16e2f95f77,2026-09-12 12:35:19,CUST_20064,AGT_1017,68,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+3b5477b6-294e-4060-9aca-5b25697f48df,2026-09-03 08:27:32,CUST_20028,AGT_1009,935,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+afd33c0d-1782-4379-95f1-10e2f29196f3,2026-08-17 23:54:24,CUST_20184,AGT_1023,584,Technical Support,I cannot connect to the VPN network from my remote setup today.
+87b1f732-8a33-4b04-99f1-b7095f8fd69b,2026-09-11 11:37:04,CUST_20027,AGT_1020,656,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+71e93a11-8628-4af4-846d-ceb65465ca6b,2026-08-25 06:11:47,CUST_20095,AGT_1024,375,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+6ca0fde5-142b-40f0-8773-3d9bd9a37c02,2026-09-15 21:56:48,CUST_20082,AGT_1015,84,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+0a703d15-e41b-4a3b-b11c-d13ebd89313f,2026-09-01 18:24:20,CUST_20061,AGT_1001,538,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+3426cf42-3ec6-444b-816e-26bf1f993558,2026-08-21 23:55:09,CUST_20187,AGT_1015,186,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+67979a00-66f7-4eb2-bf73-da35f56df62c,2026-08-24 01:42:45,CUST_20168,AGT_1015,1170,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+a181494a-ae77-4e85-8fc8-2f1cdec51f98,2026-09-12 10:54:37,CUST_20155,AGT_1013,478,Technical Support,The software update crashed mid-installation and now my device won't boot.
+d0f92761-d951-4434-8cac-f9d88cf1ff5d,2026-09-01 23:18:05,CUST_20102,AGT_1021,809,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+c5e43f23-1a53-4362-933a-8922423e7798,2026-08-23 17:06:21,CUST_20063,AGT_1007,176,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+d496569a-8f3a-457f-b0f1-7580b819aa98,2026-09-15 09:33:18,CUST_20141,AGT_1007,496,Account Management,I need to change the primary email address and phone number associated with my profile.
+43733287-2d75-4215-9ff3-71bf15e68af5,2026-08-20 16:43:07,CUST_20058,AGT_1002,109,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+3498cd01-7eaf-4e95-ae49-8a6c83e092b1,2026-09-11 19:09:40,CUST_20060,AGT_1008,1039,Account Management,I need to change the primary email address and phone number associated with my profile.
+48f9298d-0eb3-4fa2-b791-f9f1e2958ec3,2026-09-14 13:26:21,CUST_20147,AGT_1015,542,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+27fe3962-cb1e-46e3-9dfd-954e1ffddc39,2026-08-27 01:58:10,CUST_20024,AGT_1003,927,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+d9800870-efd4-4939-bab6-b5354d1ec920,2026-09-06 19:05:40,CUST_20119,AGT_1023,155,Account Management,Can you help me reset my security questions and multi-factor authentication?
+d1fa8a98-3d8d-4307-88f1-638cf2d0e5e1,2026-09-06 09:12:49,CUST_20186,AGT_1010,268,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+bc22b8c7-457f-46f4-9f20-b82097303c06,2026-08-27 01:44:06,CUST_20137,AGT_1014,332,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+cb96a28e-faec-4ca1-b4cc-bdd2b349396f,2026-08-31 08:39:16,CUST_20118,AGT_1007,199,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+55426e17-9e44-4bb2-828d-04dc0ea961d8,2026-08-20 07:03:55,CUST_20166,AGT_1017,75,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+f3b02198-aac3-44fc-ab82-49908ff32fc6,2026-08-25 21:53:32,CUST_20104,AGT_1015,1030,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+7cc2ee65-f4c1-423a-9a72-f05c0cc5ee14,2026-08-20 16:26:27,CUST_20042,AGT_1012,49,Technical Support,I cannot connect to the VPN network from my remote setup today.
+fbaa3b82-57f0-4bb3-855c-6b5e786141f9,2026-09-08 22:14:56,CUST_20073,AGT_1013,1183,Cancellation Request,I am switching to another provider and need to initiate account closure.
+4e80d49b-3334-4936-90cf-54aa25bb1835,2026-08-27 01:22:22,CUST_20075,AGT_1006,164,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+4dfb36af-afe3-433f-90ee-ec1778efb023,2026-09-02 01:30:06,CUST_20014,AGT_1001,1021,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+c273f5d4-1ca8-4260-9295-b42fcbba78c1,2026-08-20 14:23:43,CUST_20130,AGT_1002,425,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+03a98513-4d8b-4755-acc2-de1cafe5731e,2026-08-29 06:09:29,CUST_20103,AGT_1003,549,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+6a9750c8-a1e3-4ac0-a6ec-76c25fb89ede,2026-08-21 19:38:36,CUST_20107,AGT_1021,1115,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+9774d28f-e893-422f-95c5-f56a4082b918,2026-08-27 18:06:18,CUST_20171,AGT_1022,688,Account Management,I recently moved and need to update my billing and service address.
+eabe5dc8-dc94-4fbb-8289-80ed99986894,2026-09-06 01:14:59,CUST_20033,AGT_1021,659,Technical Support,The software update crashed mid-installation and now my device won't boot.
+848cabfb-924a-4243-9163-099c3da6f37e,2026-08-21 08:38:40,CUST_20002,AGT_1014,1198,Cancellation Request,I am switching to another provider and need to initiate account closure.
+b514cf17-0462-4712-a66d-06467e071e87,2026-09-12 22:30:55,CUST_20054,AGT_1016,588,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+7e077e4a-3f5d-404a-a6f2-bd6a23ffe28c,2026-08-21 04:16:24,CUST_20062,AGT_1011,628,Technical Support,The software update crashed mid-installation and now my device won't boot.
+51fb8376-e983-438a-b829-c6ee8008e928,2026-09-13 05:01:14,CUST_20180,AGT_1009,1128,Technical Support,I cannot connect to the VPN network from my remote setup today.
+8675b973-0507-483d-a7b3-17e1bc2e124b,2026-08-22 20:48:46,CUST_20034,AGT_1008,281,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+44d27044-014b-4fcb-8445-2a04dcd3c1f4,2026-08-31 01:26:04,CUST_20072,AGT_1019,476,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+8ed20c7b-1490-402a-9b50-bdc02c11543e,2026-08-30 15:41:21,CUST_20129,AGT_1015,559,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+55e99cd4-e74f-4ea9-9116-a983ac763197,2026-09-07 09:37:38,CUST_20070,AGT_1001,52,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+40d71b94-d560-4e7a-84f8-a3968dfa2e4b,2026-08-30 13:19:33,CUST_20041,AGT_1023,949,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+b130c842-14a0-46dd-b35a-076bb4b394ef,2026-09-14 01:37:46,CUST_20002,AGT_1003,199,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+8514c4af-9516-422d-8a84-5bb18e6043b6,2026-09-04 18:17:37,CUST_20149,AGT_1017,348,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+9b546a31-4feb-4a1e-bc84-e42bc1e84709,2026-08-19 20:51:35,CUST_20078,AGT_1011,126,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+54c38fe3-28d1-4271-9d35-3bf6796d158f,2026-08-29 22:50:56,CUST_20170,AGT_1003,769,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+b3082858-83b5-4265-8dab-3a211d21c006,2026-08-25 08:11:36,CUST_20060,AGT_1005,407,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+654d0bf7-0e36-4aa8-9b85-a8d91dcbd564,2026-08-26 13:05:46,CUST_20188,AGT_1010,888,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+b5395fc6-46af-49cc-bc95-7c4979f9e553,2026-08-25 13:36:17,CUST_20179,AGT_1003,828,Technical Support,The software update crashed mid-installation and now my device won't boot.
+26458647-f989-4550-9d04-983fd59b495b,2026-08-28 15:16:47,CUST_20051,AGT_1014,761,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+4ba9ee4a-92d7-40cb-8656-73acb551ec76,2026-08-28 15:51:02,CUST_20006,AGT_1021,440,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+830369ea-0d77-4c40-8680-6b24e05f3d0c,2026-08-31 08:43:18,CUST_20017,AGT_1024,616,Cancellation Request,I am switching to another provider and need to initiate account closure.
+e6061340-8858-4b6c-96b3-0e72e13eb138,2026-09-12 20:51:44,CUST_20084,AGT_1000,281,Account Management,Can you help me reset my security questions and multi-factor authentication?
+479082d8-cc95-4f9a-b276-6723a83792b3,2026-09-15 00:33:42,CUST_20067,AGT_1001,267,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+c7f9a9f3-8def-497e-9d80-1913fcae16e0,2026-09-03 14:52:49,CUST_20186,AGT_1010,938,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+7446eeb2-8014-4576-800c-c831b335fbef,2026-09-05 12:54:39,CUST_20147,AGT_1006,566,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+4e92b7ec-2343-4d93-87ce-0b9e1b06a7a3,2026-08-17 22:05:46,CUST_20133,AGT_1017,448,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+f941367a-3709-499f-b609-3bbc5080edd0,2026-08-21 05:39:04,CUST_20170,AGT_1010,687,Account Management,Can you help me reset my security questions and multi-factor authentication?
+37763893-f5e0-493c-93c2-e9affc9e4e24,2026-09-11 10:57:58,CUST_20079,AGT_1021,881,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+98dbfe64-9074-4728-9a7c-a1104eb3c1b6,2026-09-01 04:35:20,CUST_20141,AGT_1004,437,Account Management,Can you help me reset my security questions and multi-factor authentication?
+1559edaa-98db-4b05-abae-b14af8c66f3f,2026-08-26 06:52:56,CUST_20157,AGT_1018,661,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+569ff808-1f7a-46f7-a0f6-61cf79a03bb1,2026-09-01 14:09:56,CUST_20073,AGT_1006,925,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+ce002088-2b66-4dab-beff-5917c2b906fd,2026-09-09 09:52:34,CUST_20113,AGT_1014,482,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+4b96e874-06d2-4c04-8aa9-fa3b9634aba0,2026-08-26 01:49:50,CUST_20168,AGT_1002,626,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+9a032224-1824-4f83-890b-c736751aacfe,2026-08-22 08:55:47,CUST_20192,AGT_1007,680,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+055eb414-9c9c-4321-a909-8f8b67fd3f3b,2026-08-24 23:48:20,CUST_20006,AGT_1001,546,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+5be7a56c-5bbd-4d3a-82f5-6ae005dc5873,2026-09-08 22:43:26,CUST_20106,AGT_1020,443,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+ce3a1ccc-b7a9-4190-8fdf-398406c36131,2026-09-06 05:45:18,CUST_20062,AGT_1004,56,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+76049ab0-f962-4376-b2dd-b3bd5c316b1e,2026-08-28 11:05:39,CUST_20045,AGT_1022,1105,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+f3797341-8efe-48d3-aaae-00d44169c22c,2026-09-13 21:33:02,CUST_20063,AGT_1003,979,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+9a173aa5-2c99-4318-bcd8-29da403daf6a,2026-09-12 14:56:21,CUST_20143,AGT_1019,694,Technical Support,I cannot connect to the VPN network from my remote setup today.
+6ee8c491-bef2-48f8-96a1-c9ca3b1c7cd1,2026-09-13 10:26:34,CUST_20114,AGT_1005,1017,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+583fb5e4-898c-46d9-bda0-45502da1a28a,2026-08-29 20:10:51,CUST_20163,AGT_1008,1112,Cancellation Request,I am switching to another provider and need to initiate account closure.
+810bf177-1ea3-4788-a4d3-ea10c33f159d,2026-08-31 04:03:18,CUST_20112,AGT_1002,630,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+8e0d47e9-8db3-4997-bda9-db0feddcaf7f,2026-09-03 03:24:59,CUST_20081,AGT_1017,210,Technical Support,The software update crashed mid-installation and now my device won't boot.
+710c0f27-e807-4763-8c76-881a7ab75c7e,2026-08-29 01:33:53,CUST_20098,AGT_1022,357,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+04639f2e-d011-4bf8-b982-daeca76c1b08,2026-09-06 23:28:55,CUST_20104,AGT_1010,1156,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+10803792-5606-4292-b986-e838663853e8,2026-08-20 20:40:14,CUST_20052,AGT_1013,842,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+0e88a836-6596-452f-9ffd-a3023015b114,2026-09-14 18:51:13,CUST_20097,AGT_1015,57,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+79a7613e-66d8-4148-83e1-c416a651245f,2026-09-05 18:29:35,CUST_20107,AGT_1017,1163,Account Management,I recently moved and need to update my billing and service address.
+827a7a51-d66f-49de-8ec7-996e77a3c43c,2026-09-10 12:57:15,CUST_20056,AGT_1008,937,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+d2dd939d-8cab-45ad-8403-ae0a9819f041,2026-09-05 17:10:38,CUST_20086,AGT_1021,873,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+d68b1ec5-5648-494b-ab38-f18d51e7ec7d,2026-08-24 00:49:22,CUST_20159,AGT_1017,100,Technical Support,I cannot connect to the VPN network from my remote setup today.
+058f6753-6fc0-45ee-b45e-635efbdc58b9,2026-08-21 21:55:54,CUST_20164,AGT_1013,322,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+da5cf5f5-8e3d-4925-b85c-d7e66e66b375,2026-08-20 06:42:42,CUST_20066,AGT_1012,715,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+4ff341f7-818e-4de1-ab36-7aabd6f72016,2026-09-02 16:55:43,CUST_20086,AGT_1024,821,Technical Support,I cannot connect to the VPN network from my remote setup today.
+92ec142b-a22a-4967-b7b7-4e6159bdcfeb,2026-08-30 02:02:36,CUST_20020,AGT_1015,84,Account Management,Can you help me reset my security questions and multi-factor authentication?
+fdc7b503-ab40-476d-b3f1-5e461bb39058,2026-09-03 19:51:33,CUST_20057,AGT_1020,185,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+70b6d6b0-b022-4ba9-813a-4df2af0c9ba2,2026-08-29 20:13:54,CUST_20051,AGT_1000,357,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+9c0d9932-b952-4a42-b6f2-ddf2098ad376,2026-09-09 19:51:52,CUST_20171,AGT_1003,1200,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+5b4625bc-5c1c-4b34-9a4c-4b07ebf86087,2026-08-30 06:40:16,CUST_20196,AGT_1011,388,Technical Support,I cannot connect to the VPN network from my remote setup today.
+fe719a34-6abc-4ad4-b188-c24fb57f85f9,2026-08-25 18:55:36,CUST_20079,AGT_1003,97,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+39e84c1d-6fec-4fb9-a4de-0d32615c028c,2026-09-06 02:15:42,CUST_20183,AGT_1006,200,Account Management,Can you help me reset my security questions and multi-factor authentication?
+16ce01c9-25eb-4c9f-b7fe-c78d9001551d,2026-08-22 18:50:58,CUST_20178,AGT_1024,662,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+9e6be0be-b8b1-49aa-ac73-0f5686bec5e1,2026-09-14 07:29:06,CUST_20010,AGT_1011,1136,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+25565d35-6997-44b7-ad58-faabdaa63f69,2026-08-21 04:27:58,CUST_20129,AGT_1020,743,Cancellation Request,I am switching to another provider and need to initiate account closure.
+e73147ba-afcd-4eee-8f3a-3703739f5ed2,2026-09-10 15:15:07,CUST_20027,AGT_1013,786,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+f309e41c-4a20-4c25-b37c-79c0815b7bfd,2026-09-07 23:30:18,CUST_20045,AGT_1023,1113,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+d315a822-5b09-43bd-aa69-7533835a7c0b,2026-09-09 09:44:34,CUST_20111,AGT_1023,594,Account Management,Can you help me reset my security questions and multi-factor authentication?
+b5ce63d5-7f05-4d9c-95b0-1fffeffaa6cf,2026-08-22 01:05:43,CUST_20071,AGT_1014,544,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+89e1b36c-08ab-4129-bdee-654e0aa003c8,2026-09-03 04:03:22,CUST_20007,AGT_1015,710,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+cdbc2b1f-c8f2-458b-923e-44f06e6bbf58,2026-08-28 03:15:48,CUST_20090,AGT_1008,742,Technical Support,I cannot connect to the VPN network from my remote setup today.
+4aec4fbd-16e3-4091-b310-ad8d2f352447,2026-09-13 19:40:09,CUST_20002,AGT_1016,436,Account Management,I recently moved and need to update my billing and service address.
+07d79253-092e-4b8b-a5ae-f0046f78dc48,2026-09-06 13:38:56,CUST_20125,AGT_1017,537,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+4c4eb987-ba03-4e41-a181-ef9776358cbb,2026-09-08 14:17:13,CUST_20004,AGT_1002,647,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+c626d94c-9e6b-4dc7-b929-2154c9b8fe8e,2026-08-29 15:35:48,CUST_20078,AGT_1021,800,Technical Support,I cannot connect to the VPN network from my remote setup today.
+36405b9e-63bd-458e-8a84-9cecb7d9fc3e,2026-09-07 11:52:25,CUST_20190,AGT_1017,722,Cancellation Request,I am switching to another provider and need to initiate account closure.
+bb3b5637-f6d2-4a27-baf4-ea94a153ceeb,2026-08-30 23:45:58,CUST_20078,AGT_1008,517,Account Management,Can you help me reset my security questions and multi-factor authentication?
+fcb7ca9c-dad7-4b03-873a-403feeadd6a7,2026-09-02 03:45:57,CUST_20030,AGT_1023,1142,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+62c6cfe5-6725-46d0-b3ff-240865f480c5,2026-08-28 08:13:55,CUST_20189,AGT_1015,611,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+f8f10da9-4764-48ee-8f06-969960a56b08,2026-08-22 17:14:50,CUST_20049,AGT_1009,510,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+2b3b6ce4-3cf6-41c3-8d92-276172631a42,2026-09-01 12:17:35,CUST_20003,AGT_1022,1138,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+4d63df44-8158-41bc-9847-6bf9a012e86a,2026-08-20 01:09:19,CUST_20013,AGT_1017,643,Technical Support,The software update crashed mid-installation and now my device won't boot.
+b3bd5941-6a25-4e9d-99d1-12fa729ea5fc,2026-08-22 19:38:56,CUST_20003,AGT_1018,627,Technical Support,I cannot connect to the VPN network from my remote setup today.
+d478747d-3b46-4a2f-9ccf-e5e7597e4c98,2026-09-08 05:18:33,CUST_20087,AGT_1005,150,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+70f4b68c-47e6-4421-8eeb-70a4cf082a11,2026-08-23 09:02:49,CUST_20016,AGT_1012,1052,Account Management,Can you help me reset my security questions and multi-factor authentication?
+f676430c-ef8b-42a4-a094-5800669a3ea7,2026-08-25 04:54:02,CUST_20038,AGT_1018,667,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+1f2c0de1-8000-43e1-a94b-a1ea0e306de7,2026-08-23 14:07:54,CUST_20142,AGT_1024,897,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+ce3bf144-c097-471a-bfc5-0c28e2e686dc,2026-09-12 04:58:01,CUST_20097,AGT_1014,951,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+9525544b-689f-49a2-9feb-584c2f97aff9,2026-09-01 15:55:10,CUST_20145,AGT_1019,168,Account Management,Can you help me reset my security questions and multi-factor authentication?
+9cc488b4-93ba-4a8d-9ee0-a0ae899f8dd0,2026-08-27 22:12:58,CUST_20160,AGT_1006,586,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+1c3d6835-e348-480c-af2e-a85a8130430c,2026-08-29 11:35:20,CUST_20044,AGT_1017,198,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+9d654744-6160-43c3-a3fd-39bfabe47f82,2026-09-06 16:04:59,CUST_20115,AGT_1022,1007,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+3bdeb002-84b4-4f16-b2e2-8aacdd866b8b,2026-08-29 01:48:54,CUST_20073,AGT_1022,624,Account Management,I need to change the primary email address and phone number associated with my profile.
+cb13d55c-98ab-4fae-b705-852a6f2583e7,2026-08-29 04:05:03,CUST_20067,AGT_1020,450,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+84e8a3fd-8308-4273-9098-6b9935f8b455,2026-09-13 06:35:13,CUST_20057,AGT_1020,350,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+ed62fd6b-6530-44bf-bf2b-6689b8e8f186,2026-08-21 07:19:27,CUST_20015,AGT_1005,674,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+c0eeab4f-9f22-4668-84c2-ce407d415e1d,2026-09-08 03:46:36,CUST_20031,AGT_1014,667,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+cfc7e0cd-8fb5-47be-9ff6-5234c2021ce8,2026-09-11 03:13:05,CUST_20138,AGT_1015,941,Cancellation Request,I am switching to another provider and need to initiate account closure.
+1e40b7a9-8236-48ef-be97-c73465f8fa95,2026-09-07 19:28:32,CUST_20188,AGT_1010,557,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+5e63eb63-291c-46db-a95b-a57fb401fe23,2026-08-28 22:50:31,CUST_20172,AGT_1018,87,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+073cc6e1-ebcf-41a0-bc66-0c9117617835,2026-08-26 08:14:16,CUST_20120,AGT_1016,950,Account Management,I need to change the primary email address and phone number associated with my profile.
+c5d9c33d-7be4-4738-aa0e-dda67d0f7ca5,2026-09-15 06:05:03,CUST_20111,AGT_1020,1052,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+82bef50c-7514-4996-81ce-0dda57417c58,2026-09-03 17:31:47,CUST_20104,AGT_1010,702,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+bb0b5cf3-b56e-4a62-a44f-c472a76f22a9,2026-09-02 20:22:29,CUST_20105,AGT_1022,1059,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+c5cf81ab-af15-4971-8b75-054a2eee3f07,2026-09-13 13:02:05,CUST_20009,AGT_1014,225,Account Management,Can you help me reset my security questions and multi-factor authentication?
+3c91bd9a-3e14-4fb2-892a-7b194cf67ba1,2026-09-02 12:46:01,CUST_20029,AGT_1024,872,Account Management,I recently moved and need to update my billing and service address.
+6564a1ce-9c80-4f14-a946-46790968d59a,2026-09-13 04:17:35,CUST_20118,AGT_1013,156,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+e4ece0da-c693-464b-9101-f4abd04a8392,2026-09-11 00:54:44,CUST_20160,AGT_1014,150,Technical Support,The software update crashed mid-installation and now my device won't boot.
+a763cd87-2bc1-4439-a8b9-576828536392,2026-09-13 12:00:47,CUST_20033,AGT_1009,942,Technical Support,The software update crashed mid-installation and now my device won't boot.
+34564797-4384-409f-90c0-cfe73abd845e,2026-08-19 05:45:40,CUST_20161,AGT_1019,535,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+9d335108-d7c0-48e2-8445-240ec3dfd6da,2026-09-13 13:53:59,CUST_20003,AGT_1017,880,Technical Support,The software update crashed mid-installation and now my device won't boot.
+388d9ed4-e1ff-4659-9dfb-491b320cc765,2026-08-23 08:19:03,CUST_20118,AGT_1003,360,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+e37b1ce6-00b5-480b-8623-40a97f7997f0,2026-09-11 13:00:16,CUST_20180,AGT_1008,895,Cancellation Request,I am switching to another provider and need to initiate account closure.
+b37ec83a-efc4-4ff6-a7c3-62ef20b9de3a,2026-08-29 16:05:34,CUST_20116,AGT_1017,341,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+d4c7c48c-f87b-4cd2-a3de-5dcb7d4ec502,2026-09-15 22:27:04,CUST_20130,AGT_1023,324,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+dec764a7-49a2-45dd-ac9e-ada34b33f1fb,2026-09-06 23:34:07,CUST_20087,AGT_1016,592,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+02f98d66-e208-4d58-8289-a545186b9e53,2026-09-01 07:58:06,CUST_20150,AGT_1018,1047,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+b247c351-a48f-4ce7-8445-78d9dd3ab92b,2026-09-12 23:37:03,CUST_20123,AGT_1011,725,Technical Support,I cannot connect to the VPN network from my remote setup today.
+552f0285-0304-467d-9302-53c99e51d9cf,2026-09-08 22:38:26,CUST_20082,AGT_1006,534,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+09d331fa-f697-4bdd-be88-e5b7ae129800,2026-08-29 04:14:44,CUST_20198,AGT_1013,134,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+96db01c9-b3ec-49de-b284-0e4f854c1a3e,2026-09-05 08:17:32,CUST_20098,AGT_1021,356,Account Management,Can you help me reset my security questions and multi-factor authentication?
+66d0bf1d-0be8-4e2b-b65a-08ed6e13568c,2026-08-23 23:12:48,CUST_20128,AGT_1018,724,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+8cec6eaa-020b-4096-92be-ebeee5e41c06,2026-08-22 16:17:54,CUST_20134,AGT_1014,76,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+72b8e389-50c6-4082-ab3d-e3e1c08360b4,2026-08-25 07:58:10,CUST_20019,AGT_1015,587,Technical Support,I cannot connect to the VPN network from my remote setup today.
+f6a24ee4-e6a3-4bae-a48d-c538fa939940,2026-08-21 17:41:59,CUST_20084,AGT_1021,1137,Account Management,Can you help me reset my security questions and multi-factor authentication?
+b0c491ab-3125-4b2e-a5ca-ac0de781a6f8,2026-09-10 12:37:33,CUST_20138,AGT_1001,185,Cancellation Request,I am switching to another provider and need to initiate account closure.
+a0168014-9453-49d8-8114-4493c8864b4e,2026-08-28 21:09:59,CUST_20191,AGT_1002,933,Technical Support,The software update crashed mid-installation and now my device won't boot.
+0dbd95cf-a8be-4745-af25-a7446940f026,2026-09-08 09:02:55,CUST_20042,AGT_1022,658,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+836493b9-1b28-4b46-9afa-d7a05a4f6a0a,2026-09-02 14:02:58,CUST_20014,AGT_1009,779,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+eb61a8c2-229a-441e-85f0-f4dbddc4a16e,2026-08-24 21:43:36,CUST_20062,AGT_1016,888,Account Management,Can you help me reset my security questions and multi-factor authentication?
+be1850c0-db90-4471-87ad-4ddea150db26,2026-08-26 02:10:16,CUST_20044,AGT_1002,828,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+cabf8f76-030b-43da-bae9-688d03b49fd3,2026-09-10 23:57:00,CUST_20149,AGT_1004,520,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+eb8d15ef-17bd-4229-b675-febc210991f4,2026-09-09 03:33:51,CUST_20065,AGT_1021,64,Cancellation Request,I am switching to another provider and need to initiate account closure.
+982aa3e7-cfac-4cf5-a4fc-8db69f369774,2026-09-13 08:57:31,CUST_20040,AGT_1002,949,Cancellation Request,I am switching to another provider and need to initiate account closure.
+5dd05d65-8ab8-4179-9e1c-c5bf6a4c33d8,2026-09-07 10:28:53,CUST_20176,AGT_1008,980,Account Management,I recently moved and need to update my billing and service address.
+a22c9f20-6e5a-41ee-a877-31414cc35fda,2026-09-05 12:19:33,CUST_20123,AGT_1003,530,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+88693470-e064-48a6-a2bb-3c7abfea1720,2026-09-14 17:49:48,CUST_20075,AGT_1022,649,Cancellation Request,I am switching to another provider and need to initiate account closure.
+bfe24782-f430-48fb-85e7-fa02fdbb00b5,2026-08-31 03:55:07,CUST_20002,AGT_1018,145,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+4911eb5c-1ef2-4581-89eb-5eb0a3757f9e,2026-08-31 17:33:58,CUST_20198,AGT_1007,766,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+d886ecfc-b7e1-4414-86b4-6a0276a8457d,2026-08-30 00:07:37,CUST_20173,AGT_1024,325,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+1207b747-eac9-4d36-8937-5887296745d4,2026-09-01 20:03:31,CUST_20112,AGT_1001,792,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+039bed4b-440d-4cd9-a72d-8c573ab0ebf3,2026-09-01 03:57:15,CUST_20083,AGT_1023,895,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+92a2243b-3add-48df-8cc6-74fefd7d694f,2026-08-24 06:06:11,CUST_20138,AGT_1011,1132,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+572d8742-0d4e-40f6-aa9e-c44c203952f3,2026-08-25 19:50:02,CUST_20065,AGT_1015,649,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+2d76794b-bcdd-4835-8718-e67207a3f926,2026-09-09 13:46:17,CUST_20019,AGT_1004,507,Account Management,I need to change the primary email address and phone number associated with my profile.
+e5200e6c-1707-4e9f-9ab8-651eb79cee4b,2026-08-22 05:20:10,CUST_20101,AGT_1000,586,Cancellation Request,I am switching to another provider and need to initiate account closure.
+e4adce4e-70a6-441e-89cc-f280a7629614,2026-09-08 21:59:23,CUST_20094,AGT_1021,581,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+eb60d5e4-7cc2-4f14-bf8a-c9548dd1a9dc,2026-09-04 20:55:26,CUST_20027,AGT_1021,523,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+43bfe2e4-cbb9-4883-b73c-59c4226146ea,2026-09-14 02:12:46,CUST_20083,AGT_1019,498,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+23967fb3-d3ff-4913-a8c9-8dec304f7c0f,2026-09-01 12:12:10,CUST_20166,AGT_1013,283,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+3775c5a5-2943-4be8-b24c-6a3fb93b64ea,2026-08-19 15:28:51,CUST_20077,AGT_1015,282,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+0bfce49f-3041-42a6-9f09-8060df38fc5a,2026-09-12 22:24:46,CUST_20034,AGT_1012,974,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+f1309931-5b8e-4b1a-85ad-351ab4d6c890,2026-09-15 08:25:36,CUST_20190,AGT_1023,361,Account Management,Can you help me reset my security questions and multi-factor authentication?
+182c2a6c-175c-48f9-8d58-74bcbb15fe5d,2026-09-10 14:15:23,CUST_20157,AGT_1013,617,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+45dfbd64-be69-4f13-a359-efbf129d2234,2026-08-28 09:15:48,CUST_20113,AGT_1014,528,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+811351e5-1359-4f37-9d3d-90112c6b9b6a,2026-09-04 16:06:07,CUST_20139,AGT_1020,779,Account Management,I need to change the primary email address and phone number associated with my profile.
+83e9e6fb-300c-47c4-97d2-3638f7096459,2026-08-31 05:33:03,CUST_20048,AGT_1003,976,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+0cdaae1f-5940-4657-8780-2ba7196d9f81,2026-09-15 19:51:04,CUST_20005,AGT_1001,728,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+e7e34c22-d26a-40ff-877a-fb4b0a14e8d6,2026-09-14 05:54:24,CUST_20052,AGT_1002,1180,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+7bcc2248-77e1-446e-8b9c-d94a21375cb9,2026-08-29 03:35:20,CUST_20084,AGT_1024,347,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+100169af-5180-48be-9d4e-d12ac45c86b2,2026-08-31 07:10:27,CUST_20037,AGT_1004,1151,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+41761aae-57e1-46d1-bdf8-c0076934fbf4,2026-08-23 04:11:57,CUST_20169,AGT_1000,314,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+41996a6e-aa9d-4134-8f3a-b26effa6f77f,2026-08-29 09:20:10,CUST_20150,AGT_1010,77,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+6e72adc2-5c79-465f-8ac5-7c4e6a43b8c7,2026-08-20 09:10:30,CUST_20032,AGT_1023,907,Technical Support,The software update crashed mid-installation and now my device won't boot.
+fa2879fe-f3d3-4162-961e-b372d19c684c,2026-08-20 22:10:34,CUST_20121,AGT_1014,786,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+0891d79e-e547-426c-939d-c1c45924953b,2026-09-08 18:45:01,CUST_20128,AGT_1007,133,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+6392833f-0226-4ce2-92a8-4e1eb230e5c9,2026-09-09 01:47:02,CUST_20164,AGT_1000,169,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+53096316-2c22-4ac1-b69b-acf6d41d2ab2,2026-09-07 12:46:14,CUST_20175,AGT_1003,1049,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+f3ab0dc5-259d-4d5c-985c-6ae0332b5806,2026-08-21 18:15:12,CUST_20082,AGT_1019,348,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+d050f11c-3c2b-4008-bc9a-422a24888bfc,2026-08-31 04:32:33,CUST_20159,AGT_1020,1168,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+d4893ecf-64e9-499a-a8ce-cc1e70a94407,2026-09-15 20:08:16,CUST_20135,AGT_1009,974,Account Management,Can you help me reset my security questions and multi-factor authentication?
+77eceea8-6b26-4684-bb49-779b70a18524,2026-08-22 15:40:37,CUST_20179,AGT_1003,1174,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+ee796735-3424-4386-9d97-a373af9f1c9c,2026-09-08 18:13:31,CUST_20058,AGT_1013,739,Technical Support,I cannot connect to the VPN network from my remote setup today.
+af899597-4af8-442f-a0d2-65b3ff1cbb55,2026-09-07 00:47:20,CUST_20186,AGT_1003,685,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+f055da84-d0cb-4e1a-b311-dca252f4cc6d,2026-08-30 05:05:38,CUST_20095,AGT_1004,1016,Cancellation Request,I am switching to another provider and need to initiate account closure.
+4ca221f6-4654-4244-acda-6a037eeaf56f,2026-08-21 23:34:57,CUST_20023,AGT_1013,242,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+24c0627c-cb1e-4b56-adbb-db141a16041e,2026-09-13 20:20:41,CUST_20015,AGT_1018,1195,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+0247cce3-98e1-4f59-8b1b-1a2042d59bf1,2026-08-23 18:32:08,CUST_20105,AGT_1011,911,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+750b4110-ae3d-418d-a41f-976548678791,2026-09-15 23:39:15,CUST_20079,AGT_1011,257,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+0824f350-18d8-421d-85a9-9a872c97fcf6,2026-08-25 08:23:58,CUST_20168,AGT_1015,504,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+db4a860b-f16f-42d2-a70f-36b194fc63a0,2026-09-13 20:13:19,CUST_20094,AGT_1003,615,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+d17cc18d-0ebd-47d1-93c0-dc8e1fe65cdd,2026-09-07 16:04:40,CUST_20143,AGT_1024,1185,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+2e897382-aec0-40f0-becd-a8997ae43756,2026-08-19 05:51:31,CUST_20046,AGT_1008,677,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+3c5ae186-1aaf-4763-a1e4-b376c811d951,2026-08-18 03:14:22,CUST_20046,AGT_1004,865,Account Management,I recently moved and need to update my billing and service address.
+d012a723-e7cf-4c62-b525-f23396f9ef4c,2026-08-19 07:50:38,CUST_20023,AGT_1023,1131,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+9cadd257-ab2a-4393-8ee7-179a1fa4bf48,2026-09-07 05:15:58,CUST_20116,AGT_1010,367,Technical Support,I cannot connect to the VPN network from my remote setup today.
+cf78b2d8-9d66-48da-baea-8dc9657e7b5f,2026-09-02 14:03:33,CUST_20198,AGT_1018,218,Account Management,I recently moved and need to update my billing and service address.
+813059fe-4e8a-4fc5-85ed-fbf3421a2b39,2026-08-25 11:31:17,CUST_20193,AGT_1019,146,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+d889a952-83ef-4fff-ab23-443c93804b17,2026-09-08 08:23:23,CUST_20169,AGT_1013,1039,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+232d0cd6-c403-4df5-8e42-ebf7a07018be,2026-09-06 22:41:05,CUST_20069,AGT_1006,1094,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+2d107522-81c6-4c32-9a52-6f2f93d269ab,2026-09-07 17:00:41,CUST_20028,AGT_1009,1041,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+916b309b-affc-4e64-bcde-59345af90c30,2026-08-20 01:02:27,CUST_20056,AGT_1012,157,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+5f9dcd2a-bd98-4c8c-b351-5430178136c2,2026-09-01 11:18:17,CUST_20054,AGT_1024,326,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+62ea8dd2-4a92-4feb-8b3f-2ab7422769a9,2026-09-02 18:24:57,CUST_20030,AGT_1000,1063,Account Management,I recently moved and need to update my billing and service address.
+0350d773-d94f-43f1-a70a-e859a3bb03ee,2026-08-24 02:38:17,CUST_20097,AGT_1017,516,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+cacd7310-1391-4f95-84ea-db4ee9401d74,2026-08-21 08:05:59,CUST_20101,AGT_1023,131,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+bc21bf91-87ca-4d49-b7c9-d628ff735813,2026-09-09 03:46:42,CUST_20019,AGT_1010,924,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+dd1e6adc-dc1f-492f-918b-2a01cb79606f,2026-09-07 02:46:28,CUST_20074,AGT_1003,874,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+e9d5ce34-7f77-4d8b-9cfd-7cad7e43567e,2026-08-26 04:22:21,CUST_20158,AGT_1014,786,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+9516def0-2ed1-46c5-846c-ff48b5f8d897,2026-08-22 23:27:55,CUST_20062,AGT_1013,865,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+d2aa89e9-bd40-4842-a2af-010c08bcb2c8,2026-09-06 01:13:38,CUST_20079,AGT_1023,740,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+b2bbe7d9-f56f-48a5-97b3-249aaa2194b0,2026-08-26 00:00:52,CUST_20019,AGT_1016,278,Technical Support,The software update crashed mid-installation and now my device won't boot.
+e9d4b10e-8339-475e-9a35-febfcca1ef9c,2026-09-03 19:10:39,CUST_20089,AGT_1023,347,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+f471bb0f-7262-4344-8937-89d03eca0552,2026-08-24 22:44:44,CUST_20065,AGT_1006,400,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+7e690056-9f18-4eb8-921e-f9092298bdfb,2026-08-21 11:55:07,CUST_20045,AGT_1024,1056,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+3696bd4e-33cf-40cc-b52a-4551ecdda243,2026-09-14 05:48:23,CUST_20164,AGT_1020,706,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+68764d06-49bf-4de7-a68e-cae179ed5de1,2026-09-08 04:29:11,CUST_20017,AGT_1015,950,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+d223cdd3-a5e9-4f6f-bfb4-9c0435ebe602,2026-09-15 13:10:47,CUST_20014,AGT_1011,1084,Account Management,I recently moved and need to update my billing and service address.
+1b573277-cd60-42b6-bd50-bea183c85504,2026-09-09 06:05:41,CUST_20115,AGT_1001,161,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+78af53be-4267-4de3-a7ed-67c8eadf31a2,2026-08-21 13:31:26,CUST_20165,AGT_1002,1083,Account Management,I recently moved and need to update my billing and service address.
+ee28066f-bea7-4114-a347-2e069b1b582c,2026-09-15 00:15:30,CUST_20141,AGT_1023,129,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+f698d7dd-d0f5-4f78-9c1a-af4503173fd4,2026-09-02 10:43:53,CUST_20154,AGT_1015,1071,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+54c79c8c-0b7b-45d0-adf4-63adce7b4d91,2026-09-08 17:01:23,CUST_20026,AGT_1010,217,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+164b4c9f-139d-4afd-95bf-8e002cef9b82,2026-08-19 17:43:46,CUST_20063,AGT_1022,941,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+8582c60f-a08d-4634-81c8-00020661a6c2,2026-09-04 12:05:51,CUST_20095,AGT_1009,838,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+2ea23984-ece7-416d-8f38-548aec83bc12,2026-09-15 20:42:48,CUST_20013,AGT_1020,730,Cancellation Request,I am switching to another provider and need to initiate account closure.
+85bdf915-3542-4c7b-8473-feece63d8d1a,2026-08-22 10:13:59,CUST_20142,AGT_1021,836,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+24af9f35-1052-40a5-a17d-d0f71acae466,2026-09-16 02:19:23,CUST_20038,AGT_1010,211,Account Management,I recently moved and need to update my billing and service address.
+99cdec4c-98ba-42cd-91e5-c6f0b1f7c663,2026-09-03 19:41:47,CUST_20079,AGT_1020,847,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+70857bf3-852f-4367-b10f-59c3cd89a1f8,2026-09-01 20:48:53,CUST_20143,AGT_1012,717,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+9ffb25c6-f8fb-45a3-b206-3fa43943f37e,2026-09-07 09:25:48,CUST_20130,AGT_1011,82,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+f00b7af6-efbf-45c2-9d93-02b8c4bc7ed1,2026-08-26 14:08:50,CUST_20054,AGT_1010,1040,Account Management,I recently moved and need to update my billing and service address.
+5c0b83ad-ec16-4898-9974-981345f59f5f,2026-08-24 12:24:03,CUST_20039,AGT_1002,650,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+35a9091a-1b4b-47c1-8b3e-a7264e518dfe,2026-09-03 04:29:05,CUST_20196,AGT_1019,313,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+0fed243b-441c-461e-a5d0-74334f0f2dd9,2026-08-25 07:50:35,CUST_20041,AGT_1005,384,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+e6bf28e0-a872-4584-acc8-244bd6821f4c,2026-09-06 18:48:38,CUST_20093,AGT_1021,531,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+9ca6ba9a-1099-45c0-ba70-855a407b92f4,2026-09-08 15:09:53,CUST_20059,AGT_1017,534,Cancellation Request,I am switching to another provider and need to initiate account closure.
+30a01b38-3f53-4a6d-8a2b-c09c0d2e7f8d,2026-08-27 06:10:15,CUST_20094,AGT_1021,947,Account Management,Can you help me reset my security questions and multi-factor authentication?
+6fa91b64-160e-4cbb-b77c-4891c097d6d4,2026-09-05 09:02:22,CUST_20128,AGT_1016,902,Cancellation Request,I am switching to another provider and need to initiate account closure.
+5c548d87-513e-47b9-b095-b81f9e60247c,2026-09-16 04:36:35,CUST_20035,AGT_1008,151,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+2dbc3cc6-7868-47a9-90d8-47d3a4457585,2026-09-13 18:12:45,CUST_20026,AGT_1022,1101,Cancellation Request,I am switching to another provider and need to initiate account closure.
+5093a050-3f9e-4b42-90dd-612c24ae89b8,2026-08-21 21:50:50,CUST_20195,AGT_1005,603,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+ecab9240-9525-483f-adbe-d9616d0188c2,2026-09-08 01:49:05,CUST_20023,AGT_1007,968,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+5dbf16aa-b0f4-4378-b8fe-eb3d50b3aa26,2026-09-06 23:30:56,CUST_20013,AGT_1012,1073,Account Management,I need to change the primary email address and phone number associated with my profile.
+487911af-8e16-4178-9e47-0bf143d4081a,2026-09-05 14:02:31,CUST_20020,AGT_1011,504,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+6bc6b40f-8963-48c8-bc69-f88e6d60532d,2026-08-22 15:33:57,CUST_20182,AGT_1020,731,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+c57199fe-2966-462a-b618-10167a7a58a7,2026-08-19 16:45:08,CUST_20073,AGT_1015,329,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+b2ddda48-8fc2-4dab-9cb0-f1935564b72f,2026-09-16 17:03:30,CUST_20001,AGT_1002,83,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+363d6030-180d-4c52-9dd3-0715fc23fe11,2026-08-25 02:19:43,CUST_20140,AGT_1023,1125,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+c0ceaaf1-4325-4376-8fdf-aa7bcc747ae5,2026-08-31 19:47:18,CUST_20060,AGT_1009,294,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+8886eb42-c7ea-4192-ad12-96f879180b90,2026-09-07 05:15:28,CUST_20163,AGT_1019,981,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+40d76208-93c3-4243-95e4-b8e942c34196,2026-09-11 02:28:08,CUST_20152,AGT_1017,78,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+8873e65e-9531-42af-9708-5b00952eef29,2026-08-24 19:24:17,CUST_20074,AGT_1013,48,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+c56f259e-b8a2-4c7b-95fd-74e73719b5c2,2026-08-29 12:24:12,CUST_20146,AGT_1013,428,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+acc89c9a-f35e-4ce9-8725-31f6dfadb320,2026-08-21 02:58:40,CUST_20134,AGT_1017,1084,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+dba2ee7d-b29b-45c8-9776-fb04933460c6,2026-09-05 19:02:14,CUST_20120,AGT_1001,837,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+47980229-5e7e-4cb8-9432-08201663101b,2026-08-18 15:02:57,CUST_20091,AGT_1002,751,Account Management,I recently moved and need to update my billing and service address.
+1f06e2ff-0f28-47fa-af30-cbf2488364ae,2026-09-15 02:05:32,CUST_20188,AGT_1024,725,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+65fe4861-ce68-4ad7-88e1-85ba54010a6a,2026-09-03 22:35:02,CUST_20139,AGT_1010,403,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+b6a79c39-f646-4496-8c2d-2295fb554820,2026-08-26 16:29:42,CUST_20034,AGT_1002,982,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+7c83e673-a859-4856-9a45-8cf4cd44c105,2026-08-27 14:59:46,CUST_20011,AGT_1006,130,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+c651a59f-ec04-4575-80f1-c45a8fb34f8f,2026-09-11 20:35:28,CUST_20101,AGT_1017,1014,Account Management,I recently moved and need to update my billing and service address.
+44b9ec7d-32ac-4836-abb4-fdbfeb2dd39f,2026-08-27 02:46:38,CUST_20073,AGT_1011,142,Account Management,I need to change the primary email address and phone number associated with my profile.
+7a833d7b-a1c4-4625-b024-47f10c27db0f,2026-08-23 21:08:59,CUST_20094,AGT_1013,864,Account Management,I recently moved and need to update my billing and service address.
+35b4bdea-1c77-4378-8a11-d3755475f5d2,2026-09-03 07:07:55,CUST_20047,AGT_1015,1063,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+605efc3c-26b6-4b14-86c3-6bb406092d46,2026-08-21 20:22:30,CUST_20186,AGT_1013,206,Account Management,I recently moved and need to update my billing and service address.
+4e5f6d8b-b89f-4343-93b4-5412ef8804b7,2026-09-13 07:38:58,CUST_20075,AGT_1010,255,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+3f0c1182-52ef-4bc4-b866-41b04166cdfb,2026-09-01 04:34:16,CUST_20078,AGT_1014,917,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+61f3c1b8-77fe-4079-bc43-823dfd632379,2026-09-03 21:42:27,CUST_20114,AGT_1001,767,Technical Support,I cannot connect to the VPN network from my remote setup today.
+4b4c57e8-434c-4193-8267-20d868f10c74,2026-08-31 04:00:21,CUST_20163,AGT_1001,198,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+1b803f67-c5dd-497e-8501-64033823ac7f,2026-09-11 17:54:51,CUST_20191,AGT_1021,372,Cancellation Request,I am switching to another provider and need to initiate account closure.
+465319e4-eeb3-4fb7-9619-1cb072173fa2,2026-09-16 07:59:58,CUST_20173,AGT_1014,116,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+3479c030-b014-4000-b2e1-733c47f4df38,2026-08-29 07:04:49,CUST_20199,AGT_1020,795,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+bfa10eea-7a18-4133-a759-a9c7041011fd,2026-09-14 09:00:49,CUST_20008,AGT_1019,359,Account Management,Can you help me reset my security questions and multi-factor authentication?
+48a1f985-8528-49cf-a799-7805a4dc81e8,2026-09-04 21:33:10,CUST_20113,AGT_1024,202,Cancellation Request,I am switching to another provider and need to initiate account closure.
+1833ebb0-e1cf-4ed0-aefe-09048724f8e6,2026-09-12 12:59:28,CUST_20093,AGT_1012,688,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+c89156e6-23ef-4638-98f3-af986ba21b36,2026-08-23 08:18:10,CUST_20006,AGT_1023,426,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+7ae76a1d-968a-4cfa-aacb-fa47b6bab866,2026-09-14 02:31:19,CUST_20030,AGT_1008,578,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+624d6b62-dfc3-484b-8603-7239d3cbe18f,2026-09-16 13:00:51,CUST_20073,AGT_1022,1050,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+d90c2136-65db-4f9f-bee9-0b9e33540eb3,2026-08-24 10:15:39,CUST_20018,AGT_1014,398,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+148b1374-2062-4dec-8d36-c1561a407ed2,2026-09-02 08:28:21,CUST_20170,AGT_1011,177,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+080d2bc7-d56d-4ab6-a1ca-94798ddeaab9,2026-09-01 09:36:02,CUST_20040,AGT_1022,401,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+794f0220-5c3e-4ce7-bd35-7da65db1c783,2026-08-23 17:31:24,CUST_20051,AGT_1004,529,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+4d652789-6ca7-42fd-998f-a3d7d22397fb,2026-09-04 08:36:02,CUST_20141,AGT_1018,800,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+8708ff3f-7832-4d74-b57c-b6882659ed41,2026-09-16 13:05:50,CUST_20022,AGT_1002,678,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+4f1e8565-30f7-468e-bfe4-7d528de00716,2026-09-12 08:36:20,CUST_20105,AGT_1024,883,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+f5a119ef-73bd-4af1-b977-c50b52072839,2026-08-23 22:08:31,CUST_20081,AGT_1020,196,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+6cc28fac-9b3e-4ef8-a5eb-91df02545963,2026-09-11 22:53:38,CUST_20088,AGT_1004,1174,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+3cc016f0-e719-4a7f-8552-782edd54b664,2026-08-24 02:27:36,CUST_20110,AGT_1016,158,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+99af4da5-288a-488a-9c95-064f755237e1,2026-09-01 14:27:23,CUST_20042,AGT_1005,705,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+00178856-3df8-4e66-8ede-36351beb4013,2026-09-12 00:41:08,CUST_20072,AGT_1002,558,Technical Support,The software update crashed mid-installation and now my device won't boot.
+d1cb20d1-af1d-4b20-9aee-a97f34373d40,2026-08-23 21:57:35,CUST_20160,AGT_1009,1137,Technical Support,The software update crashed mid-installation and now my device won't boot.
+4efa9fd2-e23f-4b7d-a347-85950d969d6c,2026-09-15 13:37:57,CUST_20148,AGT_1004,395,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+e6a6066f-8cfa-4dde-b1f2-2cd892b2e8b8,2026-09-14 04:47:18,CUST_20010,AGT_1000,211,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+1e5bc340-ac5b-4736-bd07-290c85bcc8b2,2026-08-28 01:44:07,CUST_20196,AGT_1018,898,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+693e9e95-ea9c-4f8f-9e01-f7dcf22ed4c4,2026-09-11 00:22:56,CUST_20160,AGT_1017,638,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+33088641-549a-4654-adb2-d7fb06fad78b,2026-08-29 17:25:45,CUST_20175,AGT_1012,654,Account Management,Can you help me reset my security questions and multi-factor authentication?
+add716fa-25ea-4ad3-996b-38e48752c35a,2026-08-20 17:55:46,CUST_20040,AGT_1014,896,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+cb3cb43e-718a-42a7-be5c-8d4afba0a581,2026-08-27 17:49:47,CUST_20087,AGT_1019,339,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+e9bce314-f49a-43ce-ab61-975d44eabe17,2026-09-03 14:30:42,CUST_20102,AGT_1004,803,Account Management,I recently moved and need to update my billing and service address.
+696495ed-a05e-4ee6-8233-92cb99e98d43,2026-09-02 07:55:22,CUST_20061,AGT_1014,295,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+fda8ed7d-c7b1-4c95-83f3-a16d5751089d,2026-08-29 20:58:20,CUST_20036,AGT_1003,148,Account Management,Can you help me reset my security questions and multi-factor authentication?
+d3bb6809-543b-47bd-9f42-7d084a568da5,2026-09-16 17:05:33,CUST_20107,AGT_1007,372,Account Management,Can you help me reset my security questions and multi-factor authentication?
+254ef32c-ae86-4ed0-b0a3-b22aff0037f7,2026-08-27 01:17:54,CUST_20195,AGT_1005,1065,Account Management,I recently moved and need to update my billing and service address.
+ac0404ba-135a-4c33-bb66-450fc9a6fd75,2026-09-11 01:13:22,CUST_20078,AGT_1015,92,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+becf5ea3-c72b-40ff-bfc8-55c47477b2af,2026-09-11 09:00:40,CUST_20117,AGT_1007,485,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+2ba6fe5f-1d11-4c73-9d27-b7b791037bb8,2026-08-20 04:49:00,CUST_20012,AGT_1009,1058,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+858b0de4-b255-472d-93bc-d0b47f95ea09,2026-08-31 17:02:48,CUST_20137,AGT_1000,265,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+2a0b4b3f-aa03-41a8-92ee-a5b97b24b4b9,2026-08-30 16:15:32,CUST_20186,AGT_1011,870,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+3303d6f1-8a8b-4fc1-ab73-c887b98133b8,2026-09-06 06:50:14,CUST_20013,AGT_1018,1195,Account Management,I need to change the primary email address and phone number associated with my profile.
+a7c9846c-3f04-4494-b7a0-7aee4e07b8c5,2026-09-13 16:40:38,CUST_20073,AGT_1002,836,Technical Support,The software update crashed mid-installation and now my device won't boot.
+91187f5a-8a06-4791-92a6-c24d56287fc7,2026-09-13 12:45:20,CUST_20071,AGT_1019,288,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+6a8768dc-66f9-4144-92e7-e54b07b2d21f,2026-09-05 23:03:24,CUST_20095,AGT_1010,1187,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+7ea4e8d2-c316-4fde-8f6a-d37e2afc4bc6,2026-08-27 12:02:42,CUST_20154,AGT_1016,867,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+812ee69d-5aed-471b-815a-a8e7326eca00,2026-08-20 00:54:29,CUST_20009,AGT_1004,727,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+fecb292a-7c23-4360-8257-84afb32b9688,2026-08-25 01:39:15,CUST_20155,AGT_1016,331,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+9c842073-83b5-4392-8f3c-1d88996c1b10,2026-08-25 17:27:15,CUST_20100,AGT_1019,657,Account Management,I recently moved and need to update my billing and service address.
+9605aaba-5fd4-45b4-b213-f970c9a999ca,2026-09-11 11:11:26,CUST_20130,AGT_1017,1048,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+75cb5ebf-0dfe-4d80-bfa4-d651cdbbb3d3,2026-09-09 21:24:56,CUST_20004,AGT_1011,723,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+49f7bc66-c8f9-4de0-9c70-b4468bcfc2d5,2026-09-15 04:11:17,CUST_20078,AGT_1023,99,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+d77f5864-32d0-470c-9344-b4151c83b13d,2026-08-30 17:29:28,CUST_20167,AGT_1024,511,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+17dc9ad3-ed18-41a1-98bf-559b0aa4079d,2026-08-26 02:47:12,CUST_20134,AGT_1020,823,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+57077296-4f4d-4e80-be70-1d41df2e5ffa,2026-08-19 08:54:29,CUST_20146,AGT_1022,270,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+16de0f5e-dae3-474c-b4db-ab3c9412661f,2026-09-08 05:58:22,CUST_20080,AGT_1013,355,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+07e6f19e-e0cb-4788-860e-0993d962052e,2026-09-06 18:15:00,CUST_20128,AGT_1024,1010,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+878e7d32-7d78-44ce-84a6-9f4d63c5263d,2026-09-12 00:26:08,CUST_20053,AGT_1017,710,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+8c4a9140-f26b-4711-98d5-964f523056a7,2026-09-02 01:40:26,CUST_20044,AGT_1014,1136,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+17477900-dff4-487a-8e94-af8a16aa3b2b,2026-08-30 16:07:48,CUST_20156,AGT_1015,438,Account Management,I recently moved and need to update my billing and service address.
+cde58c5b-67bc-489b-be3d-01b970e9de27,2026-09-13 22:20:38,CUST_20076,AGT_1007,654,Technical Support,The software update crashed mid-installation and now my device won't boot.
+f8799af6-c1c6-422c-87b6-0abb981d66a6,2026-09-10 13:51:20,CUST_20081,AGT_1015,759,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+f709353b-8dbb-4f9c-b91f-fac6a4321e51,2026-08-31 19:25:29,CUST_20031,AGT_1018,1157,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+88606760-33c0-4f7f-a5d6-b4024922b7f6,2026-09-03 14:14:12,CUST_20197,AGT_1004,639,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+46d52be1-b3a7-44df-820b-9876f6d361a9,2026-08-21 16:12:06,CUST_20088,AGT_1014,570,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+6f2d9ccd-c900-49cf-b08b-124185010f79,2026-08-27 15:33:07,CUST_20137,AGT_1008,1196,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+be1eb24e-dd73-48c4-992f-d97e1b5257ff,2026-08-23 03:23:02,CUST_20157,AGT_1023,535,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+eff2ed3f-6d1a-4fb1-8319-cf7cc3a34e18,2026-09-12 14:50:02,CUST_20057,AGT_1020,521,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+3ce9904a-a6e4-4ed7-b5cb-be6b8fa39746,2026-09-06 21:39:24,CUST_20084,AGT_1022,1012,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+796a0876-e320-4b28-9f37-2def6d244156,2026-08-18 02:09:45,CUST_20140,AGT_1005,878,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+f9fa1df5-b218-4225-ad7d-0246ec13c81e,2026-08-27 12:30:31,CUST_20193,AGT_1009,702,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+bee985ad-39d6-4008-aad6-9ad06cf679f7,2026-08-22 04:21:18,CUST_20166,AGT_1018,520,Account Management,I need to change the primary email address and phone number associated with my profile.
+8eda6eec-413a-4dae-a862-a9ef18d6428c,2026-08-26 08:05:27,CUST_20106,AGT_1005,119,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+88d19197-1dac-4e96-82e7-d4aa84a7e8c7,2026-08-26 21:11:40,CUST_20191,AGT_1009,121,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+1d495308-8ea3-4774-ab7f-6a39347fef30,2026-09-14 09:50:57,CUST_20154,AGT_1003,731,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+583bcea7-e593-48b8-9b1b-99a1ff0d8b38,2026-09-13 05:07:00,CUST_20134,AGT_1015,319,Account Management,Can you help me reset my security questions and multi-factor authentication?
+1df34ed9-41dc-4d44-9c83-55c5d63c0e3e,2026-08-31 02:00:14,CUST_20049,AGT_1003,722,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+aa4f9f97-712a-41af-ab85-0a550bb1232d,2026-08-30 07:51:40,CUST_20183,AGT_1005,73,Technical Support,I cannot connect to the VPN network from my remote setup today.
+e4980c8c-d82a-444b-ab1f-46dbd7a60592,2026-09-14 09:38:20,CUST_20172,AGT_1024,440,Account Management,I recently moved and need to update my billing and service address.
+919608b1-cb0b-4885-a27d-3bd541fc9e10,2026-09-07 14:26:10,CUST_20131,AGT_1010,222,Technical Support,I cannot connect to the VPN network from my remote setup today.
+430df91e-3939-4516-a232-db7fbe210357,2026-08-26 19:24:41,CUST_20035,AGT_1015,707,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+79580798-7150-454e-bf51-b641da2f5dc8,2026-08-30 11:57:45,CUST_20098,AGT_1007,959,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+93575976-59f2-4f92-92db-fdea9128970a,2026-09-01 11:55:05,CUST_20149,AGT_1023,68,Account Management,I recently moved and need to update my billing and service address.
+8d3f089a-05f2-4e08-aba3-977e0a99023c,2026-08-29 07:26:17,CUST_20015,AGT_1021,287,Account Management,I recently moved and need to update my billing and service address.
+8d142040-c16d-44c2-89da-59903c8985f2,2026-08-25 14:12:33,CUST_20103,AGT_1021,1074,Cancellation Request,I am switching to another provider and need to initiate account closure.
+afd5be44-9c01-4f99-bb95-2863d0c84734,2026-09-01 03:52:10,CUST_20094,AGT_1019,497,Account Management,I need to change the primary email address and phone number associated with my profile.
+e439b32a-3e1d-4c3d-845a-17b1e5230f05,2026-09-10 01:14:53,CUST_20039,AGT_1014,810,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+a88d6124-37a3-48d3-b970-85f0ae7f119d,2026-09-12 22:22:45,CUST_20170,AGT_1006,551,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+266a9053-e69d-4041-b5fb-eb6881ba4eec,2026-09-12 08:23:07,CUST_20114,AGT_1016,785,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+cdd12114-4430-4064-a2af-a4cf771ffda5,2026-08-20 20:04:45,CUST_20140,AGT_1016,459,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+c0fa43de-c86e-4e22-b50f-47a3ac799268,2026-08-25 19:49:31,CUST_20083,AGT_1016,949,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+b3f190d8-8fc5-46c6-b798-2ac600f993d3,2026-09-15 03:32:31,CUST_20125,AGT_1002,1090,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+92f5cdcb-1c24-484a-8350-74e78b46fe6d,2026-09-08 20:24:45,CUST_20033,AGT_1016,895,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+0251fc56-36e0-4f35-9c4d-9546477ed691,2026-09-13 23:10:18,CUST_20118,AGT_1021,676,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+63814d54-b907-459c-8969-f20d8d259606,2026-08-30 04:35:23,CUST_20000,AGT_1023,491,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+c1761a13-5268-4c35-b793-6c3bffc07cc4,2026-08-20 00:53:32,CUST_20108,AGT_1011,175,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+f393bce7-ccd0-4d4a-8005-cde9d6286cb7,2026-08-21 04:32:20,CUST_20120,AGT_1001,632,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+1d304140-eac4-4e46-83aa-211fffcdc313,2026-08-24 09:54:42,CUST_20196,AGT_1020,905,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+a6b55ba3-732a-412e-a38c-cc21f44c6494,2026-09-08 14:42:34,CUST_20096,AGT_1012,209,Account Management,Can you help me reset my security questions and multi-factor authentication?
+d0b4575c-af95-4a0d-83c3-bcbc9494ced9,2026-09-03 17:18:25,CUST_20030,AGT_1005,1145,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+f6635e7d-8fbd-457e-acf5-724d467a2e52,2026-08-28 15:34:43,CUST_20000,AGT_1024,91,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+7eaec900-1018-479e-957e-004dfb7c2660,2026-09-13 06:27:02,CUST_20108,AGT_1017,821,Account Management,Can you help me reset my security questions and multi-factor authentication?
+3a46f13e-a3fc-4d3a-867d-35b87ada8e4d,2026-09-09 04:47:35,CUST_20088,AGT_1004,609,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+da3ff126-be84-450c-bdc5-40154e6359f5,2026-08-19 09:39:42,CUST_20169,AGT_1013,77,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+69124f01-dd06-4fdb-81d4-b3cf6c6ceefd,2026-08-21 02:31:31,CUST_20025,AGT_1019,113,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+8d067e21-725a-4537-9d66-e0e3212d7b8c,2026-08-29 17:15:42,CUST_20189,AGT_1001,868,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+3f457555-eef3-4fcc-9bdc-6fa9d7518cf7,2026-09-13 00:59:29,CUST_20055,AGT_1024,160,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+2cfc9952-c34d-43fc-890f-ee0f1f2186da,2026-08-29 04:56:37,CUST_20187,AGT_1018,698,Technical Support,The software update crashed mid-installation and now my device won't boot.
+57141352-145f-42d4-a844-5bc43234e39b,2026-08-29 08:08:20,CUST_20077,AGT_1004,1112,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+7a0e02f3-bd90-4e61-83e5-8c8299348bbc,2026-09-01 10:14:05,CUST_20070,AGT_1001,1185,Technical Support,I cannot connect to the VPN network from my remote setup today.
+2f2a95bd-1927-4dc4-a62a-8d192f9b1e10,2026-09-07 13:51:02,CUST_20142,AGT_1015,141,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+0aab3444-df09-47ae-a556-47e67fb879cd,2026-09-12 07:10:10,CUST_20081,AGT_1022,897,Account Management,Can you help me reset my security questions and multi-factor authentication?
+f653b703-ccf3-433d-a9d5-7f3430f279a6,2026-09-01 09:31:16,CUST_20096,AGT_1005,1146,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+166eb08b-8272-4171-979c-77ac1f91e9a8,2026-08-28 18:40:16,CUST_20076,AGT_1022,340,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+dd424dd8-a8e3-4f07-9e20-2872339fb6f3,2026-09-14 03:21:10,CUST_20105,AGT_1013,1186,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+67ccd02c-730c-4650-8f84-f993e3297b2b,2026-09-05 16:40:00,CUST_20062,AGT_1008,461,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+9cdc09bb-acbf-47f9-9621-41970c549003,2026-09-08 16:09:55,CUST_20094,AGT_1002,1141,Account Management,I need to change the primary email address and phone number associated with my profile.
+489843d5-faaf-4ee4-be45-f52c1e725ed9,2026-08-30 20:54:22,CUST_20096,AGT_1021,125,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+b4d0d7cd-360b-4a47-92b1-5f119451a39b,2026-09-15 08:42:37,CUST_20185,AGT_1021,1189,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+be1faee1-2961-4a6e-b758-609f3571d93a,2026-08-27 23:29:57,CUST_20085,AGT_1009,76,Technical Support,I cannot connect to the VPN network from my remote setup today.
+74ced3ca-3421-40b0-8552-f04b61df48c2,2026-08-23 12:48:32,CUST_20191,AGT_1024,1025,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+e983fa29-4753-406f-b625-9ae2831b7be4,2026-09-06 02:14:08,CUST_20061,AGT_1017,703,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+49736f47-d0fb-42ba-80b6-10b16f8624ca,2026-09-09 11:20:49,CUST_20136,AGT_1020,780,Account Management,Can you help me reset my security questions and multi-factor authentication?
+a6565657-a832-4033-ac43-6c5b8473ea31,2026-09-04 07:08:31,CUST_20131,AGT_1015,999,Account Management,I recently moved and need to update my billing and service address.
+a5c6a3de-7da6-4f08-8991-da50bb688df4,2026-09-02 09:13:28,CUST_20052,AGT_1011,685,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+5abc8dd8-a246-40dc-be0a-1ffae97c0759,2026-09-14 03:30:52,CUST_20056,AGT_1023,343,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+419910d9-fce0-4690-8e48-25534ada0a19,2026-09-13 16:46:49,CUST_20149,AGT_1018,900,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+f32e69ff-7a39-4cef-8077-6ddeeca4bb72,2026-08-27 08:42:20,CUST_20084,AGT_1007,822,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+9404987d-3346-4a1d-8be0-20c474d7b5ca,2026-09-11 01:51:15,CUST_20140,AGT_1020,736,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+666cdb94-138c-4e2f-8a7e-2857b9c82eca,2026-09-10 15:42:40,CUST_20117,AGT_1005,766,Account Management,Can you help me reset my security questions and multi-factor authentication?
+3467a9fb-5d4c-4c9e-9d60-07c9b9b3fa82,2026-09-13 08:53:54,CUST_20125,AGT_1005,1155,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+cb2f24cb-1f22-4e09-9b29-65f2a0e6c593,2026-08-21 10:43:37,CUST_20171,AGT_1001,58,Billing Inquiry,"Hi, I noticed an unexpected charge on my statement this month and need clarification."
+f2e743b2-c562-43a3-8e2a-7fb00780ecce,2026-08-29 01:45:55,CUST_20017,AGT_1022,354,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+595402f7-2cfc-4ac2-9c89-69e28550a83b,2026-09-11 09:20:50,CUST_20116,AGT_1011,168,Billing Inquiry,"Hello, my monthly invoice seems higher than usual. Could you explain the additional fees?"
+0fceb6ef-abe2-47c1-b4cc-117ccff1b6de,2026-09-10 12:31:02,CUST_20004,AGT_1000,1134,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+9d729cde-ff26-471b-82f6-e8e3b948b2a2,2026-08-18 09:55:59,CUST_20004,AGT_1016,607,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+7641fb19-6777-4efe-9c4e-4974edcc3af6,2026-08-18 16:05:54,CUST_20128,AGT_1022,926,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+0723d5e1-fe76-4896-bde6-fcbe2066d12d,2026-08-22 12:20:22,CUST_20134,AGT_1004,538,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+4de8df5d-ad95-470c-bc0a-652a916f6344,2026-09-04 01:04:46,CUST_20068,AGT_1012,206,Technical Support,The software update crashed mid-installation and now my device won't boot.
+b5bec0d9-7e52-4e59-91b8-bbb1c896152a,2026-09-09 02:53:49,CUST_20144,AGT_1007,507,Account Management,Can you help me reset my security questions and multi-factor authentication?
+87b26f6d-3712-4654-91dc-83195b86c30e,2026-08-19 09:02:27,CUST_20023,AGT_1012,821,Account Management,I need to change the primary email address and phone number associated with my profile.
+5ff8d025-7eb5-4d50-8c80-61be4f557e6a,2026-08-20 13:30:16,CUST_20163,AGT_1000,395,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+26320207-9c7e-4157-bea1-a5da62eb4fde,2026-09-07 21:40:01,CUST_20165,AGT_1010,240,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+45cf54c7-7d91-491e-b3d3-511dabc193a9,2026-08-28 23:49:23,CUST_20054,AGT_1022,1018,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+b01d2256-16ce-46c6-be57-fd5e489b39da,2026-08-21 10:44:51,CUST_20175,AGT_1008,1157,Account Management,I need to change the primary email address and phone number associated with my profile.
+404470d4-504a-4b84-9341-443ee9d07b29,2026-08-26 13:05:20,CUST_20080,AGT_1000,469,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+c127b243-7c02-4a1f-b4a0-b828cf418ab0,2026-09-06 04:10:27,CUST_20019,AGT_1009,377,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+1f8462d6-d08f-4397-b25d-4bec3099e66d,2026-09-14 08:22:27,CUST_20099,AGT_1021,1152,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+962e429e-6087-4040-99dd-ef274304e708,2026-08-24 15:10:48,CUST_20176,AGT_1023,205,Account Management,Can you help me reset my security questions and multi-factor authentication?
+1c31a27c-016e-429c-a638-a9cb0b8b2987,2026-08-20 10:41:12,CUST_20025,AGT_1013,520,Product Inquiry,Can you tell me if your service covers international roaming in Europe?
+56fef8a5-00dd-4033-a4d0-268fcf7d110f,2026-09-16 05:11:54,CUST_20196,AGT_1019,857,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+488b56cf-a34f-4a70-b5fe-b6727527164c,2026-08-31 02:34:29,CUST_20115,AGT_1015,512,Account Management,I need to change the primary email address and phone number associated with my profile.
+f593e43f-ef58-49aa-b50d-125e49618143,2026-09-07 19:15:54,CUST_20047,AGT_1021,823,Account Management,Can you help me reset my security questions and multi-factor authentication?
+84a18fa2-66e5-444f-b722-159fe6a815b9,2026-08-29 19:15:38,CUST_20182,AGT_1002,213,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+957b02c8-f2f7-4841-90b0-a71e945b649c,2026-09-05 06:51:28,CUST_20182,AGT_1020,360,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+c4382089-ff0c-46ce-8e49-206fd49930e6,2026-09-04 08:22:19,CUST_20027,AGT_1002,55,Cancellation Request,I am switching to another provider and need to initiate account closure.
+7a7ecb00-53bb-4d20-973b-c0f3f2fd9e8f,2026-09-04 07:27:36,CUST_20194,AGT_1008,254,Account Management,Can you help me reset my security questions and multi-factor authentication?
+4c096b6d-ddf9-4864-a1b0-c4976330c58b,2026-08-26 22:27:11,CUST_20110,AGT_1014,1185,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+21ce8119-ba10-4de6-b060-d5a6aa773155,2026-08-22 20:28:14,CUST_20006,AGT_1002,769,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+fd49e231-1373-4488-a12e-2acdfb86f99f,2026-09-15 19:35:36,CUST_20153,AGT_1010,833,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+af0caba2-d706-47d8-aa26-3b449456a3c6,2026-09-06 22:14:58,CUST_20099,AGT_1024,218,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+efc46d5d-8325-4009-9f56-ee5fe6352e67,2026-09-14 14:30:28,CUST_20133,AGT_1005,824,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+9e58fdcd-8cff-40be-8ef0-86c42412f8c4,2026-08-30 21:26:20,CUST_20077,AGT_1008,1054,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+9b6469cd-16f9-4bc4-8c16-84e87d05ac96,2026-08-25 22:56:11,CUST_20111,AGT_1008,907,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+63655d25-f6e4-4297-82d1-178ce3a87527,2026-08-21 13:44:44,CUST_20092,AGT_1008,550,Account Management,Can you help me reset my security questions and multi-factor authentication?
+f384b064-0974-4adb-9943-04edd4366dcf,2026-09-09 01:34:23,CUST_20027,AGT_1004,668,Cancellation Request,"The current plan is outside my budget, so I would like to terminate the service."
+3548a45e-af21-483a-af7e-054f38b55000,2026-09-02 23:11:12,CUST_20158,AGT_1012,719,Billing Inquiry,I need help updating my auto-pay credit card details before the next cycle.
+696b73bc-4110-476b-9a1d-a942af1fd12f,2026-09-07 17:49:48,CUST_20166,AGT_1019,323,Cancellation Request,I am switching to another provider and need to initiate account closure.
+ac75f2e7-3d22-419c-9735-d48acf65f6ee,2026-09-16 02:55:04,CUST_20177,AGT_1006,1026,Account Management,I recently moved and need to update my billing and service address.
+089e6a26-78b3-46ab-b016-4505d7845b1c,2026-09-06 04:06:30,CUST_20081,AGT_1009,1050,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+a7c1cca9-57ab-4cb6-a854-8e9a342fdd11,2026-09-02 15:48:38,CUST_20096,AGT_1008,849,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+2a8ec766-e3be-485d-92e8-99dd3604edf7,2026-09-14 05:03:33,CUST_20051,AGT_1018,1162,Account Management,I need to change the primary email address and phone number associated with my profile.
+0a0b582b-32a6-4401-921e-81cb8401617b,2026-09-09 05:57:16,CUST_20181,AGT_1006,942,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+a3b5b972-7ddf-43ea-812d-9f757a0912a5,2026-09-06 16:48:37,CUST_20172,AGT_1015,330,Account Management,I need to change the primary email address and phone number associated with my profile.
+0e08ef07-d7b3-4c27-95fd-7040f30a31f8,2026-08-30 02:31:16,CUST_20168,AGT_1004,911,Account Management,"Hello, I would like to add an authorized secondary user to my account."
+72a0e162-2e1f-4691-b3fa-519ae0af018c,2026-09-08 15:19:35,CUST_20153,AGT_1015,865,Cancellation Request,I'm calling to cancel my subscription effective at the end of this billing cycle.
+123d41dc-bae6-4bb6-b12e-a8f4e3e61412,2026-09-13 05:31:06,CUST_20009,AGT_1011,1144,Product Inquiry,I am interested in upgrading my hardware package. What options do I have?
+b4d70ef7-338b-46d3-8d60-14251fba75ca,2026-08-23 03:33:01,CUST_20196,AGT_1007,772,Product Inquiry,I want to know the difference between the standard and enterprise service tiers.
+1cb1654a-c8fe-4309-9a4d-4218210f6be3,2026-09-14 04:19:30,CUST_20165,AGT_1021,863,Technical Support,My internet router keeps blinking red and resetting every ten minutes.
+98e1dc52-b2d6-4231-9fbf-9942f19f875f,2026-08-22 23:33:36,CUST_20002,AGT_1003,574,Account Management,Can you help me reset my security questions and multi-factor authentication?
+3e9e9adc-943a-415f-bb72-1873bc0316b2,2026-09-08 11:29:43,CUST_20095,AGT_1012,993,Technical Support,I'm unable to log into the mobile app; it keeps returning an unexpected error code.
+1ef26ee7-e2a4-47d6-a3c9-e85282a33c4d,2026-09-03 14:02:31,CUST_20006,AGT_1015,259,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+f644983d-0f4c-4098-a63f-08c639c67e48,2026-08-22 00:09:14,CUST_20029,AGT_1023,335,Account Management,Can you help me reset my security questions and multi-factor authentication?
+90e32a58-4995-42b2-b238-a603af4909b9,2026-09-03 11:49:38,CUST_20116,AGT_1006,1112,Account Management,I recently moved and need to update my billing and service address.
+c060b9f4-4ea6-4928-ad28-ccf2f67ebc33,2026-09-09 22:53:43,CUST_20024,AGT_1014,971,Cancellation Request,I am switching to another provider and need to initiate account closure.
+a1e99373-c83c-4de6-b76f-d76099b2b52d,2026-09-01 09:57:31,CUST_20011,AGT_1022,280,Account Management,I need to change the primary email address and phone number associated with my profile.
+20f25f2c-5030-4218-923f-5622977d8cdb,2026-08-23 03:32:33,CUST_20173,AGT_1005,544,Billing Inquiry,"Good morning, I was charged twice for the same transaction last Tuesday."
+b633a677-1656-4ba0-83d7-11c343200328,2026-09-13 15:08:52,CUST_20040,AGT_1010,1191,Product Inquiry,Are there any ongoing promotions or bundle discounts available for existing customers?
+08ae0e6b-95da-4e45-bcf4-098eeceb564d,2026-08-29 02:15:25,CUST_20103,AGT_1020,422,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
+4b33e57b-0693-44f1-bf07-02fe525a81b4,2026-09-06 01:00:45,CUST_20007,AGT_1023,449,Technical Support,I cannot connect to the VPN network from my remote setup today.
+88912aa2-66bc-45c1-b28c-dab02bbbffeb,2026-09-05 17:09:08,CUST_20001,AGT_1022,484,Cancellation Request,Please cancel my policy and let me know if any early termination fees apply.
