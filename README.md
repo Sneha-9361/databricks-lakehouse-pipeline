@@ -27,4 +27,6 @@ Day 3: Commit test batches of raw data as JSON/Parquet files into Databricks DBF
 Day 4: Write notebooks/01_bronze_ingestion.py using PySpark to read the raw files and append them to a managed Delta table: bronze_call_records.
 
 Day 5: Add schema validation checks in PySpark (ensure non-null call_id and positive call_duration).
+Day 6: Optimize the Bronze Delta table (run OPTIMIZE and ZORDER BY (call_date)).
+
 
