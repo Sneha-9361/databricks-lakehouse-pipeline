@@ -65,3 +65,31 @@ display(incremental_bronze_df)
 # COMMAND ----------
 
 incremental_bronze_df.createOrReplaceTempView("tv_bronze_incremental_slice")
+
+
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Step 4: Apply Business Cleaning & Transformations
+# MAGIC - Clean phone numbers to standard 10 digits
+# MAGIC - Calculate call duration in minutes
+# MAGIC - Attach processing timestamp
+
+# COMMAND ----------
+
+from pyspark.sql.functions import regexp_replace, round as spark_round
+
+cleaned_silver_df = (
+    incremental_bronze_df
+    # Remove any non-digit characters from phone numbers
+    .withColumn("caller_number", regexp_replace(col("caller_number"), r"[^0-9]", ""))
+    .withColumn("receiver_number", regexp_replace(col("receiver_number"), r"[^0-9]", ""))
+    # Convert duration seconds to minutes rounded to 2 decimals
+    .withColumn("call_duration_minutes", spark_round(col("call_duration") / 60.0, 2))
+    # Audit column for Silver layer processing
+    .withColumn("_silver_processed_timestamp", current_timestamp())
+)
+
+print(f"Cleaned records count: {cleaned_silver_df.count()}")
+display(cleaned_silver_df)
