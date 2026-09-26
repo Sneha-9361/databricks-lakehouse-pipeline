@@ -93,3 +93,87 @@ cleaned_silver_df = (
 
 print(f"Cleaned records count: {cleaned_silver_df.count()}")
 display(cleaned_silver_df)
+
+
+
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Step 5: Idempotent Upsert into Silver Layer (Delta MERGE)
+# MAGIC Matches records on `call_id`. Updates existing rows if newer data arrives, inserts new rows.
+
+# COMMAND ----------
+
+from delta.tables import DeltaTable
+
+# Register cleaned dataframe as temporary view for SQL MERGE
+cleaned_silver_df.createOrReplaceTempView("tv_cleaned_silver_batch")
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC MERGE INTO workspace.default.silver_call_records AS target
+# MAGIC USING (
+# MAGIC     SELECT 
+# MAGIC         call_id,
+# MAGIC         caller_number,
+# MAGIC         receiver_number,
+# MAGIC         call_duration,
+# MAGIC         call_duration_minutes,
+# MAGIC         call_date,
+# MAGIC         _ingestion_timestamp,
+# MAGIC         _source_file,
+# MAGIC         _silver_processed_timestamp
+# MAGIC     FROM (
+# MAGIC         -- Deduplicate inside the incoming batch keeping the latest ingestion record
+# MAGIC         SELECT *,
+# MAGIC                ROW_NUMBER() OVER (PARTITION BY call_id ORDER BY _ingestion_timestamp DESC) as rn
+# MAGIC         FROM tv_cleaned_silver_batch
+# MAGIC     )
+# MAGIC     WHERE rn = 1
+# MAGIC ) AS source
+# MAGIC ON target.call_id = source.call_id
+# MAGIC WHEN MATCHED THEN
+# MAGIC   UPDATE SET
+# MAGIC     target.caller_number = source.caller_number,
+# MAGIC     target.receiver_number = source.receiver_number,
+# MAGIC     target.call_duration = source.call_duration,
+# MAGIC     target.call_duration_minutes = source.call_duration_minutes,
+# MAGIC     target.call_date = source.call_date,
+# MAGIC     target._ingestion_timestamp = source._ingestion_timestamp,
+# MAGIC     target._source_file = source._source_file,
+# MAGIC     target._silver_processed_timestamp = source._silver_processed_timestamp
+# MAGIC WHEN NOT MATCHED THEN
+# MAGIC   INSERT (
+# MAGIC     call_id,
+# MAGIC     caller_number,
+# MAGIC     receiver_number,
+# MAGIC     call_duration,
+# MAGIC     call_duration_minutes,
+# MAGIC     call_date,
+# MAGIC     _ingestion_timestamp,
+# MAGIC     _source_file,
+# MAGIC     _silver_processed_timestamp
+# MAGIC   )
+# MAGIC   VALUES (
+# MAGIC     source.call_id,
+# MAGIC     source.caller_number,
+# MAGIC     source.receiver_number,
+# MAGIC     source.call_duration,
+# MAGIC     source.call_duration_minutes,
+# MAGIC     source.call_date,
+# MAGIC     source._ingestion_timestamp,
+# MAGIC     source._source_file,
+# MAGIC     source._silver_processed_timestamp
+# MAGIC   );
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Step 6: Verify Target Silver Table
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT * FROM workspace.default.silver_call_records LIMIT 5;
