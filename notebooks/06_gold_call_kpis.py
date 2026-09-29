@@ -49,3 +49,89 @@ gold_escalation_alerts_df = flag_escalation_calls(silver_transcripts_df, "transc
 )
 
 print("Escalation alerts table successfully written to Gold.")
+
+
+
+
+
+
+
+
+
+
+
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### 6. KPI 4: Customer Sentiment Classification
+# MAGIC Computes a sentiment score across customer transcripts:
+# MAGIC - Escalated: Any high-risk escalation keyword present
+# MAGIC - Positive: Positive tokens exceed negative tokens
+# MAGIC - Neutral: Equal count or no explicit sentiment tokens detected
+
+# COMMAND ----------
+
+from pyspark.sql.functions import array_intersect, array, lit, size, when, col
+
+def apply_sentiment_scoring(df, token_col: str):
+    """
+    Classifies transcripts into Positive, Neutral, or Escalated using set-based word counts.
+    """
+    positive_words = ["happy", "resolved", "great", "thank", "thanks", "helpful", "satisfied", "excellent"]
+    negative_words = ["angry", "bad", "slow", "broken", "issue", "delay", "poor", "unhelpful"]
+    escalation_words = ["cancel", "refund", "supervisor", "manager", "attorney"]
+
+    spark_pos = array(*[lit(w) for w in positive_words])
+    spark_neg = array(*[lit(w) for w in negative_words])
+    spark_esc = array(*[lit(w) for w in escalation_words])
+
+    return (
+        df
+        # 1. Count matching tokens for each sentiment dictionary
+        .withColumn("pos_matches", size(array_intersect(col(token_col), spark_pos)))
+        .withColumn("neg_matches", size(array_intersect(col(token_col), spark_neg)))
+        .withColumn("esc_matches", size(array_intersect(col(token_col), spark_esc)))
+        # 2. Rule hierarchy: Escalated takes precedence, then Positive vs Negative
+        .withColumn(
+            "sentiment_classification",
+            when(col("esc_matches") > 0, "Escalated")
+            .when(col("pos_matches") > col("neg_matches"), "Positive")
+            .when(col("neg_matches") > col("pos_matches"), "Negative")
+            .otherwise("Neutral")
+        )
+        .drop("pos_matches", "neg_matches", "esc_matches")
+    )
+
+# COMMAND ----------
+
+# Apply sentiment scoring on the enriched Silver transcript table
+gold_sentiment_df = apply_sentiment_scoring(silver_transcripts_df, "transcript_tokens")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### 7. Write Sentiment KPI Table to Delta Lake
+
+# COMMAND ----------
+
+(
+    gold_sentiment_df
+    .select(
+        "call_id",
+        "caller_number",
+        "receiver_number",
+        "call_date",
+        "call_duration_minutes",
+        "sentiment_classification",
+        "_silver_processed_timestamp"
+    )
+    .withColumn("_gold_calculated_timestamp", current_timestamp())
+    .write
+    .format("delta")
+    .mode("overwrite")
+    .option("overwriteSchema", "true")
+    .saveAsTable("workspace.default.gold_call_sentiment_metrics")
+)
+
+print("Gold sentiment KPI table successfully written.")
