@@ -176,4 +176,4 @@ An enterprise-grade, automated data pipeline implementing the **Medallion Archit
 - **Compute Engine:** Apache Spark (PySpark), Delta Lake
 - **Cloud Platform:** Azure Databricks, Unity Catalog
 - **Languages:** Python, SQL, Bash
-- **DevOps & Quality:** Git, GitHub Actions, PyTest, Flake8
+- **DevOps & Quality:** Git, GitHub Actions, PyTest
