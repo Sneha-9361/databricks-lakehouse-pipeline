@@ -1,179 +1,83 @@
-# End-to-End Databricks Medallion Lakehouse Pipeline
+# Databricks Medallion Architecture Data Pipeline
 
-An enterprise-grade, automated data pipeline implementing the **Medallion Architecture** (Bronze, Silver, Gold) on Azure Databricks, PySpark, and Delta Lake. It features automated schema enforcement, quarantine routing, engine-level Delta CHECK constraints, NLP transcript tokenization, multi-task workflow orchestration, and CI/CD automation.
+An enterprise-grade, automated data pipeline implementing the Medallion Architecture (Bronze, Silver, Gold) on Azure Databricks, PySpark, and Delta Lake. It features automated schema enforcement, quarantine validation routing, engine-level Delta CHECK constraints, NLP transcript tokenization, multi-task workflow orchestration, and CI/CD automation.
 
----
-
-## 🏛️ Architecture & Data Flow
-
-```text
-====================================================================================================
-                        MEDALLION LAKEHOUSE ARCHITECTURE & DATA FLOW
-====================================================================================================
-
-      +-----------------------------------------+
-      |  External Sources (CSV / JSON Files)    |
-      +-----------------------------------------+
-                           |
-                           | Auto Loader / Batch Ingestion
-                           v
-      +-----------------------------------------+
-      |              BRONZE LAYER               |
-      |       (workspace.default.bronze)        |
-      |-----------------------------------------|
-      | * Raw, unparsed data ingestion          |
-      | * Audit metadata added:                 |
-      |   - _source_file                        |
-      |   - _ingestion_timestamp                |
-      +-----------------------------------------+
-                           |
-                           | Incremental Watermark Filter
-                           v
-      +-----------------------------------------+
-      |              SILVER LAYER               |
-      |       (workspace.default.silver)        |
-      |-----------------------------------------|
-      | * Enforce strict schema & cast types    |
-      | * Standardize timestamps to UTC         |
-      | * Cleaning & Deduplication              |
-      | * Idempotent Delta MERGE INTO (Upsert)  |
-      | * Tokenize customer call transcripts    |
-      +--------------------+--------------------+
-                           |
-            +--------------+--------------+
-            |                             |
-            v Quality Split               v Passed Records
-+-----------------------+   +------------------------------------------+
-|   QUARANTINE TABLE    |   |         SILVER ENRICHED TABLES           |
-| (quarantine_records)  |   | (silver_call_records, silver_nlp_tokens) |
-|-----------------------|   +---------------------+--------------------+
-| * Null Call IDs       |                         |
-| * Negative durations  |                         | Aggregations & Sentiment NLP
-+-----------------------+                         v
-                            +------------------------------------------+
-                            |                GOLD LAYER                |
-                            |         (workspace.default.gold)         |
-                            |------------------------------------------|
-                            | * gold_daily_call_summary                |
-                            |   - Total calls, volume, avg duration    |
-                            | * gold_transcript_keyword_frequency      |
-                            |   - Unrolled tokens (explode)            |
-                            | * gold_call_sentiment_metrics            |
-                            |   - Positive, Neutral, Negative          |
-                            | * gold_escalation_alerts                 |
-                            |   - Flagged supervisor/refund/cancel     |
-                            +---------------------+--------------------+
-                                                  |
-                                                  v
-                            +------------------------------------------+
-                            |       ANALYTICS & CONSUMPTION            |
-                            |------------------------------------------|
-                            | * Power BI / Tableau Dashboards          |
-                            | * Customer Success Escalation Alerts     |
-                            | * Executive KPI Reports                  |
-                            +------------------------------------------+
-
-====================================================================================================
-                      ORCHESTRATION & CI/CD INFRASTRUCTURE
-====================================================================================================
-
-    +-------------------+      git push       +----------------------+
-    | Local Development | ------------------> |   GitHub Repository  |
-    |  (VS Code / Git)  |                     | (origin/main branch) |
-    +-------------------+                     +----------+-----------+
-                                                         |
-                                                         | Triggers
-                                                         v
-                                              +----------------------+
-                                              |    GitHub Actions    |
-                                              | (pipeline_ci.yml)    |
-                                              |----------------------|
-                                              | 1. Lint with flake8  |
-                                              | 2. Run pytest suite  |
-                                              +----------+-----------+
-                                                         |
-                                                         | Deploys Config
-                                                         v
-                                              +----------------------+
-                                              | Databricks Workflows |
-                                              | (Multi-task DAG Job) |
-                                              |----------------------|
-                                              | Bronze -> Silver ->  |
-                                              | NLP/Quality -> Gold  |
-                                              +----------------------+
-```
+Platform: Azure Databricks (Unity Catalog)
+Compute Engine: Apache Spark (PySpark) & Delta Lake
+Languages: Python, PySpark, SQL, Bash
+DevOps & Orchestration: Git, GitHub Actions, Databricks Workflows, PyTest, Flake8
 
 ---
 
-## 📅 Pipeline Implementation Roadmap
+## Architecture Overview & Data Flow
 
-| Stage | Focus Area | Deliverables / Modules |
-|---|---|---|
-| **Days 1–3** | Environment & Setup | Unity Catalog initialization (`workspace.default`), cluster provisioning, synthetic call log generation. |
-| **Day 4** | Bronze Ingestion | `notebooks/01_bronze_ingestion.py`: Raw JSON ingestion with audit metadata (`_source_file`, `_ingestion_timestamp`). |
-| **Day 5** | Quarantine Validation | `notebooks/04_silver_quality_checks.py`: Routes anomalies (`call_id IS NULL`, `call_duration <= 0`) to quarantine tables. |
-| **Day 6** | Maintenance & Z-Order | `notebooks/03_bronze_maintenance.py`: Compacts small Parquet files via `OPTIMIZE` and clusters along `call_date` with `ZORDER`. |
-| **Day 7** | Architecture Review | Documentation of raw ingestion guarantees and Lakehouse storage patterns. |
-| **Day 8** | Incremental Silver Reading | `notebooks/02_silver_transformations.py`: Timestamp watermarking to consume only net-new Bronze records. |
-| **Day 9** | Schema & NLP Tokenization | `notebooks/05_silver_nlp_transformations.py`: Enforces explicit schema casting and tokenizes transcripts using regex. |
-| **Day 10** | Gold Layer KPI Aggregations | `notebooks/06_gold_call_kpis.py`: Generates `gold_daily_call_summary` and customer complaint keyword metrics via `explode()`. |
-| **Day 11** | Sentiment Heuristic | Implements deterministic rule-based sentiment routing (`Positive`, `Negative`, `Neutral`, `Escalated`). |
-| **Day 12** | Delta Lake Upsert (`MERGE`) | Implements idempotent `MERGE INTO` deduplication on primary key `call_id`. |
-| **Day 13** | Automated Testing Suite | `tests/test_end_to_end_pipeline.py`: Validates table availability, schema contracts, and domain constraints. |
-| **Day 14** | CI/CD Automation | `.github/workflows/pipeline_ci.yml`: Automated GitHub Actions runner for `flake8` linting and `pytest`. |
-| **Day 15** | Storage Optimization | `notebooks/07_maintenance_and_optimization.py`: Table optimization (`OPTIMIZE`, `ZORDER`) and vacuuming historical logs (`VACUUM ... RETAIN 168 HOURS`). |
-| **Day 16** | Engine Table Constraints | Enforces Delta Lake table-level `CHECK` constraints (`valid_call_id`, `positive_duration`) directly in Unity Catalog. |
-| **Day 17** | Production Orchestration | `workflows/pipeline_job_config.json`: Multi-task DAG workflow with task dependencies, timeouts, and email alerting. |
+1. Bronze Layer (workspace.default.bronze_call_records)
+- Raw batch ingestion from cloud storage volumes (/Volumes/workspace/default/raw_landing).
+- Append-only immutability preserving original landing state.
+- Automated audit columns tracking data lineage: _source_file, _ingestion_timestamp, and call_date.
 
----
+2. Silver Layer (workspace.default.silver_call_records)
+- Incremental watermark filtering consuming only net-new incoming Bronze records.
+- Explicit schema type casting and UTC timestamp standardization.
+- Data Quality Validation: Separates valid records from anomalies into a dedicated quarantine table (quarantine_records) for NULL call IDs and negative call durations.
+- Idempotent upserts using Delta MERGE INTO matching on call_id to prevent duplicate rows on pipeline retries.
+- Engine-level Delta CHECK constraints enforcing data integrity at the storage layer:
+  - valid_call_id: CHECK (call_id IS NOT NULL)
+  - positive_duration: CHECK (call_duration > 0)
 
-## 🔍 Core Engineering Patterns
+3. Silver Enriched NLP Layer (workspace.default.silver_call_transcripts_enriched)
+- Regex-based text cleaning: strips punctuation, special characters, and digits, converting text to lowercase.
+- PySpark array operations: tokenizes conversation transcripts into clean word arrays (transcript_tokens) for topic and sentiment extraction.
 
-### 1. Bronze Layer Ingestion
-- **Append-Only Immutability:** Preserves raw landing records as-is for auditable history.
-- **Audit Lineage:** Every ingested row is tracked with `_source_file` and `_ingestion_timestamp`.
+4. Gold Analytics Layer (workspace.default.gold)
+- gold_daily_call_summary: Aggregates daily call counts, total volumes, and average talk durations.
+- gold_call_sentiment_metrics: Rule-based sentiment analysis classifying conversations into Positive, Neutral, Negative, and Escalated categories.
+- gold_escalation_alerts: Identifies and flags high-risk cancellation, supervisor request, or refund keywords for operational alerting.
 
-### 2. Silver Quality, Deduplication & Storage Constraints
-- **Quarantine Routing:** Anomaly rows are isolated into quarantine tables rather than dropped, maintaining count reconciliation ($\text{Bronze} = \text{Silver} + \text{Quarantine}$).
-- **Idempotent Upsert (`MERGE INTO`):** Prevents duplicate entries on notebook re-runs by matching on `call_id`.
-- **In-Engine CHECK Constraints:** Unity Catalog/Delta metadata rules block non-compliant writes at the storage layer:
-  - `valid_call_id`: `CHECK (call_id IS NOT NULL)`
-  - `positive_duration`: `CHECK (call_duration > 0)`
-
-### 3. Gold Reporting & Text Analytics
-- **Native PySpark NLP:** Regex cleaning and array operations (`array_intersect`, `explode`) avoid JVM Python serialization overhead.
-- **Atomic Overwrites:** Uses Delta `.mode("overwrite")` with schema evolution to guarantee clean reads for BI dashboards without downtime.
-
-### 4. Storage Maintenance & Compaction
-- **OPTIMIZE & Z-ORDER:** Solves the small file problem by compacting Parquet files to ~1 GB and clustering high-cardinality query keys (`call_date`, `call_id`) for file skipping.
-- **VACUUM:** Safely reclaims storage space while retaining a 7-day (168-hour) window for Delta Time Travel and ACID isolation.
+5. Orchestration & Maintenance
+- Databricks Workflows: Multi-task DAG orchestrating end-to-end execution across Bronze, Silver, Quality, NLP, Gold, and Maintenance tasks.
+- Storage Optimization: Scheduled OPTIMIZE jobs with Z-ORDER clustering on high-cardinality filter keys (call_date, call_id).
+- Storage Reclaim: VACUUM pruning historical commit files outside the 7-day (168-hour) Delta Time Travel retention window.
 
 ---
 
-## 📂 Repository Layout
+## Daily Implementation Roadmap
 
-```text
-├── .github/
-│   └── workflows/
-│       └── pipeline_ci.yml              # GitHub Actions CI for linting & tests
-├── notebooks/
-│   ├── 01_bronze_ingestion.py           # Ingestion from landing volume with lineage
-│   ├── 02_silver_transformations.py      # Watermarking, cleaning & Delta MERGE upsert
-│   ├── 04_silver_quality_checks.py      # Quarantine validation rules
-│   ├── 05_silver_nlp_transformations.py # Schema casting & transcript tokenization
-│   ├── 06_gold_call_kpis.py             # KPI summaries, sentiment scoring & alerts
-│   └── 07_maintenance_and_optimization.py # OPTIMIZE, ZORDER, and VACUUM routines
-├── tests/
-│   └── test_end_to_end_pipeline.py      # End-to-end integration and contract test suite
-├── workflows/
-│   └── pipeline_job_config.json         # Databricks Workflows multi-task DAG definition
-└── README.md
-```
+- Days 1 to 3: Environment Setup & Data Generation
+Configured Unity Catalog workspace, provisioned Spark cluster, and generated synthetic batch call transcripts and call log files.
 
----
+- Day 4: Bronze Ingestion Layer
+Created notebooks/01_bronze_ingestion.py to ingest raw JSON call logs and append lineage tracking columns (_source_file, _ingestion_timestamp).
 
-## 🛠️ Tech Stack
-- **Compute Engine:** Apache Spark (PySpark), Delta Lake
-- **Cloud Platform:** Azure Databricks, Unity Catalog
-- **Languages:** Python, SQL, Bash
-- **DevOps & Quality:** Git, GitHub Actions, PyTest
+- Day 5: Quality Assurance & Quarantine Routing
+Created notebooks/04_silver_quality_checks.py to validate incoming records against business rules and isolate defective records into quarantine storage.
+
+- Day 6: Bronze Compaction & Z-Ordering
+Created notebooks/03_bronze_maintenance.py to compact small files via OPTIMIZE and cluster data along call_date using Z-ORDER.
+
+- Day 7: Architecture Review & Baseline Documentation
+Documented Bronze ingestion guarantees, lineage tracking, and Lakehouse transaction log design.
+
+- Day 8: Silver Incremental Ingestion
+Implemented watermark-based incremental filtering to read and transform only newly landed Bronze records.
+
+- Day 9: Schema Casting & Transcript Tokenization
+Created notebooks/05_silver_nlp_transformations.py to enforce explicit schema datatypes, UTC timestamps, and regex-based NLP text tokenization.
+
+- Day 10: Gold KPI Aggregations
+Created notebooks/06_gold_call_kpis.py to calculate daily volume rollups, average call duration, and keyword frequencies.
+
+- Day 11: Sentiment Classification & Escalations
+Built deterministic rule-based sentiment routing and supervisor escalation alerting logic.
+
+- Day 12: Delta Lake MERGE INTO Upserts
+Created notebooks/02_silver_transformations.py implementing idempotent MERGE INTO upserts on call_id to eliminate duplicate records during pipeline retries.
+
+- Day 13: Automated Testing Suite
+Created tests/test_end_to_end_pipeline.py containing pytest contract and schema assertion tests.
+
+- Day 14: CI/CD Pipeline Automation
+Configured .github/workflows/pipeline_ci.yml to run automated flake8 linting and pytest test suites on every pull request and push to the main branch.
+
+- Day 15: Lakehouse Storage Maintenance & Safe Optimization
+Created notebooks/07_maintenance_and_optimization.py to safely execute OPTIMIZE, Z-ORDER, and VACU
