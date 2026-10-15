@@ -19,7 +19,7 @@ DevOps & Orchestration: Git, GitHub Actions, Databricks Workflows, PyTest, Flake
 2. Silver Layer (workspace.default.silver_call_records)
 - Incremental watermark filtering consuming only net-new incoming Bronze records.
 - Explicit schema type casting and UTC timestamp standardization.
-- Data Quality Validation: Separates valid records from anomalies into a dedicated quarantine table (quarantine_records) for NULL call IDs and negative call durations.
+- Data Quality Validation: Separates valid records from anomalies into a dedicated quarantine table (quarantine_call_records) for NULL call IDs and non-positive call durations.
 - Idempotent upserts using Delta MERGE INTO matching on call_id to prevent duplicate rows on pipeline retries.
 - Engine-level Delta CHECK constraints enforcing data integrity at the storage layer:
   - valid_call_id: CHECK (call_id IS NOT NULL)
@@ -29,7 +29,7 @@ DevOps & Orchestration: Git, GitHub Actions, Databricks Workflows, PyTest, Flake
 - Regex-based text cleaning: strips punctuation, special characters, and digits, converting text to lowercase.
 - PySpark array operations: tokenizes conversation transcripts into clean word arrays (transcript_tokens) for topic and sentiment extraction.
 
-4. Gold Analytics Layer (workspace.default.gold)
+4. Gold Analytics Layer (workspace.default.gold_*)
 - gold_daily_call_summary: Aggregates daily call counts, total volumes, and average talk durations.
 - gold_call_sentiment_metrics: Rule-based sentiment analysis classifying conversations into Positive, Neutral, Negative, and Escalated categories.
 - gold_escalation_alerts: Identifies and flags high-risk cancellation, supervisor request, or refund keywords for operational alerting.
@@ -80,4 +80,25 @@ Created tests/test_end_to_end_pipeline.py containing pytest contract and schema 
 Configured .github/workflows/pipeline_ci.yml to run automated flake8 linting and pytest test suites on every pull request and push to the main branch.
 
 - Day 15: Lakehouse Storage Maintenance & Safe Optimization
-Created notebooks/07_maintenance_and_optimization.py to safely execute OPTIMIZE, Z-ORDER, and VACU
+Created notebooks/07_maintenance_and_optimization.py to safely execute OPTIMIZE, Z-ORDER, and VACUUM routines across active catalog tables.
+
+- Day 16: Engine-Level Delta Constraints
+Configured ALTER TABLE ADD CONSTRAINT rules directly in Delta Lake to enforce non-null keys and positive durations at the storage engine level.
+
+- Day 17: Production Orchestration DAG
+Configured workflows/pipeline_job_config.json to run the multi-task Medallion Lakehouse ETL pipeline end-to-end with automated retry and dependency management.
+
+---
+
+## Repository Structure
+
+- .github/workflows/pipeline_ci.yml: GitHub Actions CI pipeline for linting and automated tests
+- notebooks/01_bronze_ingestion.py: Raw ingestion with lineage metadata
+- notebooks/02_silver_transformations.py: Watermarking, cleaning, and Delta MERGE upserts
+- notebooks/04_silver_quality_checks.py: Data validation and quarantine isolation
+- notebooks/05_silver_nlp_transformations.py: Datatype standardization and transcript tokenization
+- notebooks/06_gold_call_kpis.py: Business aggregations, sentiment metrics, and escalation alerts
+- notebooks/07_maintenance_and_optimization.py: Safe Delta OPTIMIZE, Z-ORDER, and VACUUM routines
+- tests/test_end_to_end_pipeline.py: Automated pipeline schema and contract test suite
+- workflows/pipeline_job_config.json: Databricks Workflows multi-task DAG definition
+- README.md: Comprehensive project documentation
